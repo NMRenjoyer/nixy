@@ -55,6 +55,7 @@
       element-desktop
       clamtk
       pinta # Image editor
+      stirling-pdf # TODO: Server version
 
       # Dev
       go
