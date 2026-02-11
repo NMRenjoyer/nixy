@@ -6,6 +6,7 @@
   imports = [
     # Programs
     ../../home/programs/brave
+    ../../home/programs/keymapp
     ../../home/programs/proton
     ../../home/programs/ghostty
     ../../home/programs/nvf
@@ -21,6 +22,8 @@
     ../../home/programs/zathura
     ../../home/programs/nightshift
     ../../home/programs/group/cybersecurity.nix
+    ../../home/programs/libreoffice
+    ../../home/programs/inkscape/default.nix
 
     # System (Desktop environment like stuff)
     ../../home/system/hyprland
@@ -30,7 +33,6 @@
     ../../home/system/udiskie
 
     ./variables.nix # Mostly user-specific configuration
-    ./secrets # CHANGEME: You should probably remove this line, this is where I store my secrets
   ];
 
   home = {
@@ -49,6 +51,7 @@
       signal-desktop # Signal app, private messages
       stirling-pdf # TODO: Server version
       calibre
+      realvnc-vnc-viewer
 
       # Dev
       go

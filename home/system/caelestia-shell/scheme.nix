@@ -7,7 +7,7 @@
 }: let
   colors = config.lib.stylix.colors;
 
-  customSchemeFile = pkgs.writeText "custom-dark.txt" ''
+  customSchemeFile = pkgs.writeText "custom-light.txt" ''
     primary_paletteKeyColor ${colors.base0D}
     secondary_paletteKeyColor ${colors.base04}
     tertiary_paletteKeyColor ${colors.base08}
@@ -123,7 +123,7 @@
   customCli = inputs.caelestia-cli.packages.${pkgs.stdenv.hostPlatform.system}.default.overrideAttrs (oldAttrs: {
     postUnpack = ''
       mkdir -p $sourceRoot/src/caelestia/data/schemes/custom/main
-      cp ${customSchemeFile} $sourceRoot/src/caelestia/data/schemes/custom/main/dark.txt
+      cp ${customSchemeFile} $sourceRoot/src/caelestia/data/schemes/custom/main/light.txt
       echo "Custom scheme added to source"
     '';
   });

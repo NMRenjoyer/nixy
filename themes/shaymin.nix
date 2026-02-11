@@ -17,7 +17,7 @@
       animation-speed = "fast"; # "fast" | "medium" | "slow"
       fetch = "none"; # "nerdfetch" | "neofetch" | "pfetch" | "none"
       textColorOnWallpaper =
-        config.lib.stylix.colors.base00; # Color of the text displayed on the wallpaper (Lockscreen, display manager, ...)
+        config.lib.stylix.colors.base08; # Color of the text displayed on the wallpaper (Lockscreen, display manager, ...)
     };
     description = "Theme configuration options";
   };
@@ -74,9 +74,10 @@
     };
 
     polarity = "light";
-    image = pkgs.fetchurl {
-      url = "https://raw.githubusercontent.com/anotherhadi/awesome-wallpapers/refs/heads/main/app/static/wallpapers/pink-clouds.png";
-      sha256 = "sha256-IvINf62mg9rKjml4sh8hl/j7UHrQQlbm6QnZTaI+TRk=";
-    };
+    image = ./wallpaper.jpg;
+    #                          pkgs.fetchurl {
+    #  url = "https://raw.githubusercontent.com/anotherhadi/awesome-wallpapers/refs/heads/main/app/static/wallpapers/pink-clouds.png";
+    #  sha256 = "sha256-IvINf62mg9rKjml4sh8hl/j7UHrQQlbm6QnZTaI+TRk=";
+    #    };
   };
 }

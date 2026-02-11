@@ -62,8 +62,8 @@
       }
     ];
     tray = {
-      background = false;
-      recolour = false;
+      background = true;
+      recolour = true;
     };
   };
 }
