@@ -5,7 +5,7 @@
 }: {
   imports = [
     # Programs
-    ../../home/programs/brave
+    ../../home/programs/firefox
     ../../home/programs/keymapp
     ../../home/programs/proton
     ../../home/programs/ghostty
