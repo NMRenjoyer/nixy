@@ -1,7 +1,6 @@
 {config, ...}: {
   imports = [
     # Mostly system related configuration
-    ../../nixos/nvidia.nix # CHANGEDME: Remove this line if you don't have an Nvidia GPU
     ../../nixos/audio.nix
     ../../nixos/bluetooth.nix
     ../../nixos/fonts.nix
@@ -13,11 +12,12 @@
     ../../nixos/utils.nix
     ../../nixos/hyprland.nix
     ../../nixos/docker.nix
-    #../../home/programs/steam/default.nix
+
     # You should let those lines as is
     ./hardware-configuration.nix
     ./variables.nix
   ];
+
   home-manager.users."${config.var.username}" = import ./home.nix;
 
   # Don't touch this
