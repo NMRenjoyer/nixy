@@ -23,8 +23,6 @@
     ../../home/programs/zathura
     ../../home/programs/nightshift
     ../../home/programs/group/cybersecurity.nix
-    ../../home/programs/libreoffice
-    ../../home/programs/inkscape/default.nix
 
     # System (Desktop environment like stuff)
     ../../home/system/hyprland
@@ -40,7 +38,6 @@
     packages = with pkgs; [
       # Apps
       vlc # Video player
-      blanket # White-noise app
       obsidian # Note taking app
       textpieces # Manipulate texts
       resources # Ressource monitor
@@ -49,25 +46,17 @@
       mpv # Video player
       ticktick # Todo app
       signal-desktop # Signal app, private messages
+      stirling-pdf # TODO: Server version
       stirling-pdf # PDF Editor
       swappy # Screenshot tool
       notesnook
       element-desktop
       clamtk
-      pinta # Image editor
       stirling-pdf # TODO: Server version
+      inkscape # Image editor
 
       # Dev
-      go
-      bun
-      docker
-      nodejs
       python3
-      jq
-      just
-      air
-      duckdb
-      lazydocker
 
       # Just cool
       peaclock
@@ -75,6 +64,7 @@
       pipes
       cmatrix
       fastfetch
+      pokemon-colorscripts
     ];
 
     inherit (config.var) username;
