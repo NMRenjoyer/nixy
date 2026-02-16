@@ -64,62 +64,6 @@ in {
               desc = "TickTick";
               cmd = "${pkgs.ticktick}/bin/ticktick";
             }
-            {
-              key = "b";
-              desc = "Brave";
-              cmd = "${pkgs.brave}/bin/brave";
-            }
-            {
-              key = "i";
-              desc = "Brave (Private window)";
-              cmd = "${pkgs.brave}/bin/brave --incognito";
-            }
-          ]))
-
-        # Web links
-        "$mod,B, exec,  uwsm app -- ${pkgs.brave}/bin/brave" # Browser (Brave)
-        ("$shiftMod, B, exec, "
-          + lib.getExe (mkMenu [
-            {
-              key = "h";
-              desc = "Home";
-              cmd = "${pkgs.brave}/bin/brave 'https://home.hadi.diy'";
-            }
-            {
-              key = "m";
-              desc = "Proton Mail";
-              cmd = "${pkgs.brave}/bin/brave 'https://mail.proton.me/u/2/inbox'";
-            }
-            {
-              key = "c";
-              desc = "Proton Calendar";
-              cmd = "${pkgs.brave}/bin/brave 'https://calendar.proton.me/u/2'";
-            }
-            {
-              key = "l";
-              desc = "Proton Lumo";
-              cmd = "${pkgs.brave}/bin/brave 'https://lumo.proton.me/u/2'";
-            }
-            {
-              key = "d";
-              desc = "Proton Drive";
-              cmd = "${pkgs.brave}/bin/brave 'https://drive.proton.me/u/2/'";
-            }
-            {
-              key = "G";
-              desc = "Google Gemini";
-              cmd = "${pkgs.brave}/bin/brave 'https://gemini.google.com/'";
-            }
-            {
-              key = "g";
-              desc = "Github";
-              cmd = "${pkgs.brave}/bin/brave 'https://github.com/'";
-            }
-            {
-              key = "n";
-              desc = "MyNixos";
-              cmd = "${pkgs.brave}/bin/brave 'https://mynixos.com/'";
-            }
           ]))
 
         # Power
