@@ -2,9 +2,7 @@
   pkgs,
   lib,
   ...
-}: let
-  inherit (lib) mkForce;
-in {
+}: {
   AppAutoUpdate = false;
   BackgroundAppUpdate = false;
   BlockAboutAddons = false;
@@ -34,10 +32,9 @@ in {
   DisableProfileImport = true; # Purity enforcement: Only allow nix-defined profiles
   DisableProfileRefresh = true; # Disable the Refresh Firefox button on about:support and support.mozilla.org
   DisableSetDesktopBackground = true; # Remove the “Set As Desktop Background…” menuitem when right clicking on an image, because Nix is the only thing that can manage the backgroud
-  # DisableSystemAddonUpdate = true; # Do not allow addon updates
   DisablePocket = true;
   DisableFormHistory = true;
-  DisablePasswordReveal = true;
+  DisablePasswordReveal = false;
 
   DisableTelemetry = true;
   DisplayBookmarksToolbar = "never"; # "always" | "never" | "newtab"

@@ -6,7 +6,6 @@
 }: {
   programs.firefox = {
     enable = true;
-    #    package = pkgs.unstable.firefox;
     policies = lib.mkMerge [
       (import ./policies.nix {inherit config pkgs lib;})
       (import ./extensions.nix {inherit config pkgs lib;})
