@@ -18,14 +18,14 @@ in {
       {}
     ];
     profiles = {
-      "abhi" = {
+      "dcreetz" = {
         id = 0;
         isDefault = true;
         userContent = import ./userContent.nix;
         userChrome = import ./userChrome.nix;
         settings = import ./preferences.nix;
         containers = import ./containers.nix;
-        # search = import ./search.nix;
+        search = import ./search.nix;
       };
     };
   };
