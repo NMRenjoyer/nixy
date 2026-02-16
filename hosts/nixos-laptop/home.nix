@@ -5,7 +5,7 @@
 }: {
   imports = [
     # Programs
-    ../../home/programs/brave
+    ../../home/programs/firefox
     ../../home/programs/keymapp
     ../../home/programs/proton
     ../../home/programs/ghostty
@@ -49,6 +49,9 @@
       ticktick # Todo app
       session-desktop # Session app, private messages
       signal-desktop # Signal app, private messages
+      stirling-pdf # TODO: Server version
+      calibre
+      realvnc-vnc-viewer
       stirling-pdf # PDF Editor
       calibre # Ebooks
       swappy # Screenshot tool
