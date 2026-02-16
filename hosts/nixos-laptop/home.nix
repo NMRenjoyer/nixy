@@ -21,6 +21,7 @@
     ../../home/programs/nixy
     ../../home/programs/zathura
     ../../home/programs/nightshift
+    ../../home/programs/lf
     ../../home/programs/group/cybersecurity.nix
 
     # System (Desktop environment like stuff)
