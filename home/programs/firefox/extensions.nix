@@ -13,13 +13,29 @@
     listToAttrs [
       (extension "*" "" "menupanel")
       (extension "sponsorblock" "sponsorBlocker@ajay.app" "menupanel")
+<<<<<<< HEAD
       (extension "ublock-origin" "uBlock0@raymondhill.net" "navbar")
       (extension "proton-pass" "78272b6fa58f4a1abaac99321d503a20@proton.me" "navbar")
+=======
+      (extension "darkreader" "addon@darkreader.org" "menupanel")
+      (extension "rsshub-radar" "i@diygod.me" "navbar")
+      (extension "awesome-rss" "{97d566da-42c5-4ef4-a03b-5a2e5f7cbcb2}" "menupanel")
+      (extension "ublock-origin" "uBlock0@raymondhill.net" "navbar")
+      (extension "bitwarden-password-manager" "{446900e4-71c2-419f-a6a7-df9c091e268b}" "menupanel")
+      (extension "catppuccin-mocha-red" "{e4c06efe-4936-4ca0-87e2-4a47dc5fa5ee}" "menupanel")
+      (extension "proton-pass" "78272b6fa58f4a1abaac99321d503a20@proton.me" "navbar")
+      # (extension "catppuccin-mocha-teal" "{3f8844e2-3fc1-4104-9773-0f4bb98eab69}" "menupanel")
+>>>>>>> 63344dc (brave -> firefox)
     ];
   "3rdparty".Extensions = {
     "uBlock0@raymondhill.net".adminSettings = {
       userSettings = rec {
         uiTheme = "dark";
+<<<<<<< HEAD
+=======
+        uiAccentCustom = true;
+        uiAccentCustom0 = "#f38ba8";
+>>>>>>> 63344dc (brave -> firefox)
         cloudStorageEnabled = lib.mkForce false; # Security liability?
         importedLists = [
           "https://raw.githubusercontent.com/abhinandh-s/nixdots/refs/heads/master/dots/uBlockOrigin/filter.txt"
