@@ -37,8 +37,8 @@
 
   outputs = inputs @ {nixpkgs, ...}: {
     nixosConfigurations = {
-      nixy =
-        # CHANGEME: This should match the 'hostname' in your variables.nix file
+      nixos-laptop =
+        # CHANGEDME: This should match the 'hostname' in your variables.nix file
         nixpkgs.lib.nixosSystem {
           modules = [
             {
@@ -47,10 +47,10 @@
                 inherit inputs;
               };
             }
-            inputs.nixos-hardware.nixosModules.omen-16-n0005ne # CHANGEME: check https://github.com/NixOS/nixos-hardware
+            inputs.nixos-hardware.nixosModules.hp-probook-440G5 # CHANGEDME: check https://github.com/NixOS/nixos-hardware
             inputs.home-manager.nixosModules.home-manager
             inputs.stylix.nixosModules.stylix
-            ./hosts/laptop/configuration.nix # CHANGEME: change the path to match your host folder
+            ./hosts/nixos-laptop/configuration.nix # CHANGEDME: change the path to match your host folder
           ];
         };
 

@@ -186,17 +186,31 @@ in {
         "$shiftMod, S, global, caelestia:screenshotFreeze" # Capture region (freeze)
         ", Print, global, caelestia:screenshotFreeze" # Capture region (freeze)
         "$shiftMod+Alt, S, global, caelestia:screenshot" # Capture region
+        "$mod,left, movefocus, l" # Move focus left
+        "$mod,right, movefocus, r" # Move focus Right
+        "$mod,up, movefocus, u" # Move focus Up
+        "$mod,down, movefocus, d" # Move focus Down
+        "$shiftMod,up, focusmonitor, -1" # Focus previous monitor
+        "$shiftMod,down, focusmonitor, 1" # Focus next monitor
+        "$shiftMod,left, layoutmsg, addmaster" # Add to master
+        "$shiftMod,right, layoutmsg, removemaster" # Remove from master
+        "$mod, KP_Insert, togglespecialworkspace, magic" # Zero in
+        "$mod SHIFT, KP_Insert, movetoworkspace, special:magic" # Add to zero in
       ]
       ++ (builtins.concatLists (builtins.genList (i: let
           ws = i + 1;
+          numpadCodes = ["KP_End" "KP_Down" "KP_Next" "KP_Left" "KP_Begin" "KP_Right" "KP_Home" "KP_Up" "KP_Prior"];
+          code = builtins.toString (builtins.elemAt numpadCodes i);
         in [
           "$mod,code:1${toString i}, workspace, ${toString ws}"
           "$mod SHIFT,code:1${toString i}, movetoworkspace, ${toString ws}"
+          "$mod, ${code}, workspace, ${toString ws}"
+          "$mod SHIFT, ${code}, movetoworkspace, ${toString ws}"
         ])
         9));
 
     bindm = [
-      "$mod,mouse:272, movewindow" # Move Window (mouse)
+      "$mod,mouse:272, movewindow" # Move Window (mouse)908caa
       "$mod,R, resizewindow" # Resize Window (mouse)
     ];
 

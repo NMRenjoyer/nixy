@@ -9,7 +9,7 @@
   configDir = config.var.configDirectory;
   timeZone = config.var.timeZone;
   defaultLocale = config.var.defaultLocale;
-  extraLocale = config.var.extraLocale;
+  #  extraLocale = config.var.extraLocale;
   autoUpgrade = config.var.autoUpgrade;
 in {
   networking.hostName = hostname;
@@ -27,6 +27,7 @@ in {
 
   time = {timeZone = timeZone;};
   i18n.defaultLocale = defaultLocale;
+  /*
   i18n.extraLocaleSettings = {
     LC_ADDRESS = extraLocale;
     LC_IDENTIFICATION = extraLocale;
@@ -38,7 +39,7 @@ in {
     LC_TELEPHONE = extraLocale;
     LC_TIME = extraLocale;
   };
-
+  */
   services = {
     xserver = {
       enable = true;
@@ -75,6 +76,8 @@ in {
     power-profiles-daemon.enable = true;
     udisks2.enable = true;
   };
+
+  programs.steam.enable = true;
 
   # enable zsh autocompletion for system packages (systemd, etc)
   environment.pathsToLink = ["/share/zsh"];
