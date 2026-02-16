@@ -5,11 +5,7 @@
 }: {
   imports = [
     # Choose your theme here:
-<<<<<<< HEAD:hosts/laptop/variables.nix
-    ../../themes/zen.nix
-=======
     ../../themes/shaymin.nix
->>>>>>> f024cd0 (first commit):hosts/nixos-laptop/variables.nix
   ];
 
   config.var = {

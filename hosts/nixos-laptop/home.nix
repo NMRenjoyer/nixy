@@ -54,6 +54,8 @@
       notesnook
       element-desktop
       clamtk
+      pinta # Image editor
+
       # Dev
       go
       bun
