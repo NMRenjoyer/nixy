@@ -108,11 +108,7 @@ in {
 
   FirefoxHome = {
     Search = false;
-<<<<<<< HEAD
     TopSites = false;
-=======
-    TopSites = true;
->>>>>>> 63344dc (brave -> firefox)
     SponsoredTopSites = false; # Fuck you
     Highlights = false;
     Pocket = false;
@@ -126,11 +122,8 @@ in {
     ImproveSuggest = false;
     Locked = true;
   };
-<<<<<<< HEAD
   GenerativeAI = false;
-=======
 
->>>>>>> 63344dc (brave -> firefox)
   Handlers = {
     mimeTypes = {
       "application/msword" = {
@@ -144,7 +137,7 @@ in {
         ask = true;
         handlers = [
           {
-            name = "Gmail"; # Proton Mail
+            name = "Gmail"; #TODO Proton Mail
             uriTemplate = "https://mail.google.com/mail/?extsrc=mailto&url=%s";
           }
         ];
