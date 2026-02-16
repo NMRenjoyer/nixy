@@ -108,7 +108,7 @@ in {
 
   FirefoxHome = {
     Search = false;
-    TopSites = true;
+    TopSites = false;
     SponsoredTopSites = false; # Fuck you
     Highlights = false;
     Pocket = false;
@@ -122,7 +122,7 @@ in {
     ImproveSuggest = false;
     Locked = true;
   };
-
+  GenerativeAI = false;
   Handlers = {
     mimeTypes = {
       "application/msword" = {
