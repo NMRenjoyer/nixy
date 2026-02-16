@@ -6,6 +6,7 @@
   imports = [
     # Programs
     ../../home/programs/brave
+    ../../home/programs/keymapp
     ../../home/programs/proton
     ../../home/programs/proton/auto-start-vpn.nix
     ../../home/programs/ghostty
@@ -22,6 +23,8 @@
     ../../home/programs/zathura
     ../../home/programs/nightshift
     ../../home/programs/group/cybersecurity.nix
+    ../../home/programs/libreoffice
+    ../../home/programs/inkscape/default.nix
 
     # System (Desktop environment like stuff)
     ../../home/system/hyprland
@@ -31,7 +34,6 @@
     ../../home/system/udiskie
 
     ./variables.nix # Mostly user-specific configuration
-    ./secrets # CHANGEME: You should probably remove this line, this is where I store my secrets
   ];
 
   home = {
@@ -46,16 +48,12 @@
       gnome-text-editor # Basic graphic text editor
       mpv # Video player
       ticktick # Todo app
-      session-desktop # Session app, private messages
       signal-desktop # Signal app, private messages
       stirling-pdf # PDF Editor
-      calibre # Ebooks
       swappy # Screenshot tool
-      pinta # Image editor
       notesnook
       element-desktop
       clamtk
-
       # Dev
       go
       bun

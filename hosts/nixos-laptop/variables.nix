@@ -5,27 +5,30 @@
 }: {
   imports = [
     # Choose your theme here:
+<<<<<<< HEAD:hosts/laptop/variables.nix
     ../../themes/zen.nix
+=======
+    ../../themes/shaymin.nix
+>>>>>>> f024cd0 (first commit):hosts/nixos-laptop/variables.nix
   ];
 
   config.var = {
-    hostname = "nixy";
-    username = "hadi";
+    hostname = "nixos-laptop";
+    username = "dcreetz";
     configDirectory =
       "/home/"
       + config.var.username
       + "/.config/nixos"; # The path of the nixos configuration directory
 
-    keyboardLayout = "fr";
+    keyboardLayout = "us";
 
-    location = "Paris";
-    timeZone = "Europe/Paris";
+    location = "Chicago";
+    timeZone = "America/Chicago";
     defaultLocale = "en_US.UTF-8";
-    extraLocale = "fr_FR.UTF-8";
 
     git = {
-      username = "Hadi";
-      email = "112569860+anotherhadi@users.noreply.github.com";
+      username = "NMRenjoyer";
+      email = "dcreetz+github@proton.me";
     };
 
     autoUpgrade = false;
