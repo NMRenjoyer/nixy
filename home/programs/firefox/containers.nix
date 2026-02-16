@@ -6,7 +6,7 @@
   };
   coding = {
     color = "green";
-    icon = "chill"; 
+    icon = "chill";
     id = 3;
   };
   shopping = {
