@@ -49,16 +49,11 @@
       ticktick # Todo app
       session-desktop # Session app, private messages
       signal-desktop # Signal app, private messages
-<<<<<<< HEAD:hosts/laptop/home.nix
       stirling-pdf # PDF Editor
       calibre # Ebooks
       swappy # Screenshot tool
       pinta # Image editor
-=======
-      stirling-pdf # TODO: Server version
-      calibre
       realvnc-vnc-viewer
->>>>>>> f024cd0 (first commit):hosts/nixos-laptop/home.nix
 
       # Dev
       go
