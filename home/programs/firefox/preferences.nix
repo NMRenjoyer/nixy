@@ -2,7 +2,7 @@
   "browser.translations.automaticallyPopup" = true;
   "browser.aboutConfig.showWarning" = false; # disable about:config warning
   "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
-  "browser.startup.page" = 1; # 0=blank, 1=home, 2=last visited page, 3=resume previous session
+  "browser.startup.page" = 3; # 0=blank, 1=home, 2=last visited page, 3=resume previous session
   "browser.startup.homepage" = "about:home"; #
 
   "browser.newtabpage.activity-stream.feeds.weatherfeed" = false;
@@ -22,11 +22,6 @@
   "reader.color_scheme" = "custom";
   "reader.colors_menu.enabled" = true; # what does this do ?
   "reader.content_width" = 4;
-  "reader.custom_colors.background" = "#11111b";
-  "reader.custom_colors.foreground" = "#cdd6f4";
-  "reader.custom_colors.selection-highlight" = "#f9e2af";
-  "reader.custom_colors.unvisited-links" = "#b4befe";
-  "reader.custom_colors.visited-links" = "#f38ba8";
   "reader.errors.includeURLs" = true;
   "geo.provider.network.url" = "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%"; # use Mozilla geolocation service instead of Google if permission is granted
   # ------------------------------------------- #
