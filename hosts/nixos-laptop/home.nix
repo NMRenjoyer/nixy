@@ -55,6 +55,7 @@
       clamtk
       stirling-pdf # TODO: Server version
       inkscape # Image editor
+      slack # Workplace Chat
 
       # Dev
       python3
