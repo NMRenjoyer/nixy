@@ -52,6 +52,7 @@
       calibre # Ebooks
       swappy # Screenshot tool
       inkscape # Image editor
+      slack # Workplace Chat
 
       # Dev
       python3

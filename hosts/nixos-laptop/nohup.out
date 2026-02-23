@@ -1,6 +1,0 @@
-
-(org.inkscape.Inkscape:33178): Gtk-CRITICAL **: 10:47:00.386: invalid accelerator string ''
-
-(org.inkscape.Inkscape:33178): Gtk-CRITICAL **: 10:47:00.386: gtk_application_accels_get_actions_for_accel: assertion 'accel_key.key != 0' failed
-
-(org.inkscape.Inkscape:33178): Gtk-WARNING **: 10:47:00.388: Unable to parse accelerator '': ignored request to install 1 accelerators
