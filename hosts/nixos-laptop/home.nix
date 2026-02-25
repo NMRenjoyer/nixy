@@ -56,6 +56,7 @@
       stirling-pdf # TODO: Server version
       inkscape # Image editor
       slack # Workplace Chat
+      libreoffice # Office Programs
 
       # Dev
       python3
