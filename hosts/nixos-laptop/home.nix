@@ -58,6 +58,10 @@
       # Dev
       python3
 
+      # Science
+      zotero
+      pymol
+
       # Just cool
       peaclock
       cbonsai
