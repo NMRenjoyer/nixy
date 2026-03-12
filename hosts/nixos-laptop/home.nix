@@ -48,12 +48,10 @@
       ticktick # Todo app
       signal-desktop # Signal app, private messages
       stirling-pdf # TODO: Server version
-      stirling-pdf # PDF Editor
       swappy # Screenshot tool
       notesnook
       element-desktop
       clamtk
-      stirling-pdf # TODO: Server version
       inkscape # Image editor
       slack # Workplace Chat
       libreoffice # Office Programs
