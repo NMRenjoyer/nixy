@@ -55,6 +55,7 @@
       inkscape # Image editor
       slack # Workplace Chat
       libreoffice # Office Programs
+      flatpak # non-declarative, for science programs
 
       # Dev
       python3
