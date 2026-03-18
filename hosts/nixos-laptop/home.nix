@@ -5,7 +5,7 @@
 }: {
   imports = [
     # Programs
-    ../../home/programs/firefox
+    #    ../../home/programs/firefox
     ../../home/programs/keymapp
     ../../home/programs/proton
     ../../home/programs/proton/auto-start-vpn.nix

@@ -14,6 +14,7 @@
     ../../nixos/hyprland.nix
     ../../nixos/docker.nix
     ../../nixos/clamav.nix
+    ../../nixos/print.nix
 
     # You should let those lines as is
     ./hardware-configuration.nix
