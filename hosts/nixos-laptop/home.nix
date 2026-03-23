@@ -14,16 +14,14 @@
     ../../home/programs/fetch
     ../../home/programs/git
     ../../home/programs/git/lazygit.nix
-    ../../home/programs/git/signing.nix # Change the key or remove this file
-    ../../home/programs/spicetify
+    ../../home/programs/git/signing.nix
     ../../home/programs/thunar
     ../../home/programs/discord
     ../../home/programs/nixy
     ../../home/programs/zathura
-    ../../home/programs/nightshift
-    ../../home/programs/lf
-    ../../home/programs/group/cybersecurity.nix
-    ../../home/programs/librewolf
+    ../../home/programs/nightshift #
+    ../../home/programs/lf # File manager
+    ../../home/programs/librewolf # Browser
 
     # System (Desktop environment like stuff)
     ../../home/system/hyprland
