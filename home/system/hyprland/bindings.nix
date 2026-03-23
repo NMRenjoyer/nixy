@@ -91,11 +91,6 @@ in {
               cmd = "systemctl poweroff";
             }
             {
-              key = "n";
-              desc = "Nightshift";
-              cmd = "nightshift-toggle";
-            }
-            {
               key = "c";
               desc = "Restart caelestia";
               cmd = "hyprctl dispatch exec 'caelestia-shell kill | sleep 1 | caelestia-shell'";

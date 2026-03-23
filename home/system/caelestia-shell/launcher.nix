@@ -90,14 +90,6 @@
           dangerous = false;
         }
         {
-          name = "Night Shift";
-          icon = "moon_stars";
-          description = "Toggle Night Shift, the blue light filter";
-          command = ["nightshift-toggle"];
-          enabled = true;
-          dangerous = false;
-        }
-        {
           name = "Hyprpicker";
           icon = "colorize";
           description = "Pick an hex color";

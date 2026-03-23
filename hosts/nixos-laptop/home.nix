@@ -19,7 +19,6 @@
     ../../home/programs/discord
     ../../home/programs/nixy
     ../../home/programs/zathura
-    ../../home/programs/nightshift #
     ../../home/programs/lf # File manager
     ../../home/programs/librewolf # Browser
 
