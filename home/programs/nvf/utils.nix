@@ -7,10 +7,6 @@
     };
     tabline.nvimBufferline.enable = true;
     notes.todo-comments.enable = true;
-    assistant.copilot = {
-      enable = true;
-      cmp.enable = true;
-    };
     statusline.lualine.enable = true;
 
     autocomplete = {

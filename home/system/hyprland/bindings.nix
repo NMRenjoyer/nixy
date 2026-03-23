@@ -109,7 +109,7 @@ in {
         "$mod, SPACE, global, caelestia:launcher" # Launcher
         "$mod, N, exec, caelestia shell drawers toggle sidebar" # Sidebar (Notifications, quick actions)
         "$mod, D, exec, caelestia shell drawers toggle dashboard" # Dashboard
-        "$mod,B, exec,  uwsm app -- ${pkgs.brave}/bin/brave" # Browser (Brave)
+        "$mod,B, exec,  uwsm app -- ${pkgs.librewolf}/bin/librewolf" # Browser (Brave)
         "$mod,K, exec,  uwsm app -- ${pkgs.proton-pass}/bin/proton-pass" # Proton Pass
         "$mod,V, exec,  uwsm app -- ${pkgs.protonvpn-gui}/bin/protonvpn-app" # Proton VPN
 

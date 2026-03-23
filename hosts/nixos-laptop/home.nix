@@ -5,7 +5,6 @@
 }: {
   imports = [
     # Programs
-    #    ../../home/programs/firefox
     ../../home/programs/keymapp
     ../../home/programs/proton
     ../../home/programs/proton/auto-start-vpn.nix
@@ -24,6 +23,7 @@
     ../../home/programs/nightshift
     ../../home/programs/lf
     ../../home/programs/group/cybersecurity.nix
+    ../../home/programs/librewolf
 
     # System (Desktop environment like stuff)
     ../../home/system/hyprland
