@@ -27,13 +27,7 @@
       url = "github:caelestia-dots/cli";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    spicetify-nix = {
-      url = "github:Gerg-L/spicetify-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     # Server
-    eleakxir.url = "github:anotherhadi/eleakxir";
-    nixarr.url = "github:rasmus-kirk/nixarr";
   };
 
   outputs = inputs @ {nixpkgs, ...}: {
