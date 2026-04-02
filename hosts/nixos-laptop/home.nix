@@ -5,7 +5,6 @@
 }: {
   imports = [
     # Programs
-    ../../home/programs/keymapp
     ../../home/programs/proton
     ../../home/programs/proton/auto-start-vpn.nix
     ../../home/programs/ghostty
@@ -53,6 +52,8 @@
       slack # Workplace Chat
       libreoffice # Office Programs
       flatpak # non-declarative, for science programs
+      keymapp # key mapping software for zsa keyboards
+      chromium # TEMP alt browser
 
       # Dev
       python3

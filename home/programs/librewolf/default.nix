@@ -12,5 +12,8 @@
         };
       };
     };
+    settings = {
+      "webgl.disabled" = false;
+    };
   };
 }
