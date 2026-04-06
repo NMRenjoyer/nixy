@@ -78,6 +78,7 @@ in {
   };
 
   programs.steam.enable = true;
+  programs.zoom-us.enable = true;
 
   # enable zsh autocompletion for system packages (systemd, etc)
   environment.pathsToLink = ["/share/zsh"];
