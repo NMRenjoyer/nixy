@@ -54,6 +54,7 @@
       flatpak # non-declarative, for science programs
       keymapp # key mapping software for zsa keyboards
       chromium # TEMP alt browser
+      trashy # trash utility
 
       # Dev
       python3
