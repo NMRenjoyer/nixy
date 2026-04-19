@@ -19,8 +19,13 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    quickshell = {
+      url = "github:quickshell-mirror/quickshell";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     caelestia-shell = {
-      url = "github:caelestia-dots/shell";
+      # FIXME Undo this when unstable catches up, have to pin to previous version for now
+      url = "github:caelestia-dots/shell/v1.5.2";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     caelestia-cli = {
