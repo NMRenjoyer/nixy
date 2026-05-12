@@ -11,7 +11,6 @@
     metasploit
     haiti
     hydra
-    dnsrecon
     whois
     dig
     nosqli
