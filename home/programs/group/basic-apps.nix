@@ -12,8 +12,8 @@
     gnome-clocks # Clocks app
     gnome-text-editor # Basic graphic text editor
     ticktick # Todo app
-    pinta # Image editor
     switcheroo # Convert images between different formats
+    inkscape # Image editor
     onlyoffice-desktopeditors # Office suite
     blanket # Listen to different sounds
     signal-desktop # Messaging app
