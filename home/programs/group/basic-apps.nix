@@ -16,5 +16,7 @@
 
     signal-desktop # Messaging app
     element-desktop # Messaging app
+
+    keymapp # keybinding app
   ];
 }
