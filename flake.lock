@@ -441,6 +441,20 @@
       }
     },
     "flake-compat_2": {
+      "locked": {
+        "lastModified": 1733328505,
+        "narHash": "sha256-NeCCThCEP3eCl2l/+27kNNK7QrwZB1IJCrXfrbv5oqU=",
+        "rev": "ff81ac966bb2cae68946d5ed5fc4994f96d0ffec",
+        "revCount": 69,
+        "type": "tarball",
+        "url": "https://api.flakehub.com/f/pinned/edolstra/flake-compat/1.1.0/01948eb7-9cba-704f-bbf3-3fa956735b52/source.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz"
+      }
+    },
+    "flake-compat_3": {
       "flake": false,
       "locked": {
         "lastModified": 1767039857,
@@ -565,6 +579,24 @@
     },
     "flake-parts_5": {
       "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib_4"
+      },
+      "locked": {
+        "lastModified": 1777988971,
+        "narHash": "sha256-qIoWPDs+0/8JecyYgE3gpKQxW/4bLW/gp45vow9ioCQ=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "0678d8986be1661af6bb555f3489f2fdfc31f6ff",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "flake-parts_6": {
+      "inputs": {
         "nixpkgs-lib": [
           "nvf",
           "nixpkgs"
@@ -584,7 +616,7 @@
         "type": "github"
       }
     },
-    "flake-parts_6": {
+    "flake-parts_7": {
       "inputs": {
         "nixpkgs-lib": [
           "stylix",
@@ -1414,6 +1446,27 @@
         "type": "github"
       }
     },
+    "nixcord": {
+      "inputs": {
+        "flake-compat": "flake-compat_2",
+        "flake-parts": "flake-parts_5",
+        "nixpkgs": "nixpkgs_8",
+        "nixpkgs-nixcord": "nixpkgs-nixcord"
+      },
+      "locked": {
+        "lastModified": 1778548162,
+        "narHash": "sha256-KQy02cCQetNnBeYdG6r2l7S1WftgMAJnZTBapzQ2h2s=",
+        "owner": "FlameFlag",
+        "repo": "nixcord",
+        "rev": "2261e7ae57299e09310978092443e736fcda446f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "FlameFlag",
+        "repo": "nixcord",
+        "type": "github"
+      }
+    },
     "nixos-hardware": {
       "locked": {
 <<<<<<< HEAD
@@ -1499,6 +1552,37 @@
         "type": "github"
       }
     },
+    "nixpkgs-lib_4": {
+      "locked": {
+        "lastModified": 1777168982,
+        "narHash": "sha256-GOkGPcboWE9BmGCRMLX3worL4EMnsnG8MyKmXNeYuhQ=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "f5901329dade4a6ea039af1433fb087bd9c1fe14",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs-nixcord": {
+      "locked": {
+        "lastModified": 1778003029,
+        "narHash": "sha256-q/nkKLDtHIyLjZpKhWk3cSK5IYsFqtMd6UtXF3ddjgA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0c88e1f2bdb93d5999019e99cb0e61e1fe2af4c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs-stable": {
       "locked": {
 <<<<<<< HEAD
@@ -1525,11 +1609,19 @@
     },
     "nixpkgs_10": {
       "locked": {
+<<<<<<< HEAD
         "lastModified": 1779560665,
         "narHash": "sha256-tpyBcxPpcQb8ukyNF7DoCwfSY3VPsxHoYwj00Cayv5o=",
         "owner": "nixos",
         "repo": "nixpkgs",
         "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+=======
+        "lastModified": 1774386573,
+        "narHash": "sha256-4hAV26quOxdC6iyG7kYaZcM3VOskcPUrdCQd/nx8obc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "46db2e09e1d3f113a13c0d7b81e2f221c63b8ce9",
+>>>>>>> a152656 (added steam and nixcord)
         "type": "github"
       },
       "original": {
@@ -1541,6 +1633,7 @@
     },
     "nixpkgs_11": {
       "locked": {
+<<<<<<< HEAD
         "lastModified": 1778869304,
         "narHash": "sha256-30sZNZoA1cqF5JNO9fVX+wgiQYjB7HJqqJ4ztCDeBZE=",
         "owner": "NixOS",
@@ -1573,6 +1666,8 @@
     },
     "nixpkgs_13": {
       "locked": {
+=======
+>>>>>>> a152656 (added steam and nixcord)
         "lastModified": 1775888245,
         "narHash": "sha256-nwASzrRDD1JBEu/o8ekKYEXm/oJW6EMCzCRdrwcLe90=",
         "owner": "NixOS",
@@ -1587,7 +1682,11 @@
         "type": "github"
       }
     },
+<<<<<<< HEAD
     "nixpkgs_14": {
+=======
+    "nixpkgs_12": {
+>>>>>>> a152656 (added steam and nixcord)
       "locked": {
 <<<<<<< HEAD
         "lastModified": 1777954456,
@@ -1611,6 +1710,7 @@
         "type": "github"
       }
     },
+<<<<<<< HEAD
     "nixpkgs_15": {
       "locked": {
         "lastModified": 1779560665,
@@ -1628,6 +1728,9 @@
       }
     },
     "nixpkgs_16": {
+=======
+    "nixpkgs_13": {
+>>>>>>> a152656 (added steam and nixcord)
       "locked": {
         "lastModified": 1777268161,
         "narHash": "sha256-bxrdOn8SCOv8tN4JbTF/TXq7kjo9ag4M+C8yzzIRYbE=",
@@ -1790,6 +1893,7 @@
       },
       "locked": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1779222498,
         "narHash": "sha256-LGIZ5xrJN3Ko0OxOTSDztoFYiIBMBgzQrLpXfNWx/RI=",
         "owner": "NotAShelf",
@@ -1807,6 +1911,35 @@
       "original": {
         "owner": "NotAShelf",
         "repo": "tuigreet",
+=======
+        "lastModified": 1778003029,
+        "narHash": "sha256-q/nkKLDtHIyLjZpKhWk3cSK5IYsFqtMd6UtXF3ddjgA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0c88e1f2bdb93d5999019e99cb0e61e1fe2af4c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_9": {
+      "locked": {
+        "lastModified": 1777954456,
+        "narHash": "sha256-hGdgeU2Nk87RAuZyYjyDjFL6LK7dAZN5RE9+hrDTkDU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "549bd84d6279f9852cae6225e372cc67fb91a4c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+>>>>>>> a152656 (added steam and nixcord)
         "type": "github"
       }
     },
@@ -1867,11 +2000,19 @@
     "nvf": {
       "inputs": {
         "flake-compat": "flake-compat_3",
+<<<<<<< HEAD
         "flake-parts": "flake-parts_5",
         "mnw": "mnw",
         "ndg": "ndg",
         "nixpkgs": "nixpkgs_12",
         "systems": "systems_7"
+=======
+        "flake-parts": "flake-parts_6",
+        "mnw": "mnw",
+        "ndg": "ndg",
+        "nixpkgs": "nixpkgs_10",
+        "systems": "systems_6"
+>>>>>>> a152656 (added steam and nixcord)
       },
       "locked": {
 <<<<<<< HEAD
@@ -1992,8 +2133,13 @@
         "jwt-tui": "jwt-tui",
         "nix-index-database": "nix-index-database",
         "nixarr": "nixarr",
+        "nixcord": "nixcord",
         "nixos-hardware": "nixos-hardware",
+<<<<<<< HEAD
         "nixpkgs": "nixpkgs_10",
+=======
+        "nixpkgs": "nixpkgs_9",
+>>>>>>> a152656 (added steam and nixcord)
         "nixpkgs-stable": "nixpkgs-stable",
         "notashelf-tuigreet": "notashelf-tuigreet",
         "nvf": "nvf",
@@ -2006,10 +2152,14 @@
     },
     "rust-overlay": {
       "inputs": {
+<<<<<<< HEAD
         "nixpkgs": [
           "notashelf-tuigreet",
           "nixpkgs"
         ]
+=======
+        "nixpkgs": "nixpkgs_11"
+>>>>>>> a152656 (added steam and nixcord)
       },
       "locked": {
 <<<<<<< HEAD
@@ -2102,9 +2252,13 @@
         "base16-helix": "base16-helix",
         "base16-vim": "base16-vim",
         "firefox-gnome-theme": "firefox-gnome-theme",
-        "flake-parts": "flake-parts_6",
+        "flake-parts": "flake-parts_7",
         "gnome-shell": "gnome-shell",
+<<<<<<< HEAD
         "nixpkgs": "nixpkgs_15",
+=======
+        "nixpkgs": "nixpkgs_12",
+>>>>>>> a152656 (added steam and nixcord)
         "nur": "nur",
         "systems": "systems_10",
         "tinted-kitty": "tinted-kitty",
@@ -2485,10 +2639,14 @@
     "usbguard-tui": {
 >>>>>>> 9694579 (first commit)
       "inputs": {
+<<<<<<< HEAD
         "nixpkgs": [
           "nixarr",
           "nixpkgs"
         ]
+=======
+        "nixpkgs": "nixpkgs_13"
+>>>>>>> a152656 (added steam and nixcord)
       },
       "locked": {
 <<<<<<< HEAD

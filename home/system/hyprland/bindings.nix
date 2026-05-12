@@ -33,7 +33,7 @@ in {
       [
         # Applications
         (
-          "$shiftMod, A, exec, "
+          "$shiftMod, M, exec, "
           + lib.getExe (mkMenu [
             {
               key = "a";
