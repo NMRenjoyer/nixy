@@ -71,7 +71,10 @@
           # jack = import ./hosts/server/flake.nix args;
 
           nixos-laptop = import ./hosts/nixos-laptop/flake.nix args;
+<<<<<<< HEAD
           nixos-desktop = import ./hosts/nixos-desktop/flake.nix args;
+=======
+>>>>>>> 9694579 (first commit)
         };
       }
     ];

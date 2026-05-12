@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1778857089,
         "narHash": "sha256-TclWRW2SdFeETLaiTG4BA8C8C4m/LppQEldncqyTzAQ=",
         "owner": "hyprwm",
@@ -47,6 +48,13 @@
         "repo": "aquamarine",
         "rev": "ab2b0af63fbc9fb779d684f19149b790978be8a8",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777499565,
+        "narHash": "sha256-nU55VWk99Pn1QzQDDjFISocC4SgDZ3Xp+zb6ji3JclM=",
+        "owner": "hyprwm",
+        "repo": "aquamarine",
+        "rev": "813c1e8981893c11e118b19c125d6bc282f51765",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -131,6 +139,7 @@
       },
       "locked": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780522780,
         "narHash": "sha256-1gM3dJtcTx4Bmpi8sg7HSysSY1/Cv+VgdBwwsM/pW1s=",
         "owner": "anotherhadi",
@@ -143,6 +152,13 @@
         "repo": "blog",
         "rev": "15f2b6c184aa2a3d3fbf27eeb8f80a938de279a9",
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778180620,
+        "narHash": "sha256-FVJbHr6NgVP2I89cbI6hOU3TEiR6U+dCNfr+eYvFGFg=",
+        "owner": "anotherhadi",
+        "repo": "blog",
+        "rev": "25fb5a4bf09400b032917c8847d44e597fe7c2c6",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -178,20 +194,24 @@
     "bun2nix_2": {
       "inputs": {
         "flake-parts": "flake-parts_2",
+<<<<<<< HEAD
         "import-tree": "import-tree_2",
         "nixpkgs": [
           "default-creds",
           "nixpkgs"
         ],
+=======
+        "nixpkgs": "nixpkgs_3",
+>>>>>>> 9694579 (first commit)
         "systems": "systems_2",
         "treefmt-nix": "treefmt-nix_2"
       },
       "locked": {
-        "lastModified": 1770895533,
-        "narHash": "sha256-v3QaK9ugy9bN9RXDnjw0i2OifKmz2NnKM82agtqm/UY=",
+        "lastModified": 1778446047,
+        "narHash": "sha256-oQvcadh2BCkrog+SGrG6YffKJrveYpjj3TdQJWaKhaM=",
         "owner": "nix-community",
         "repo": "bun2nix",
-        "rev": "c843f477b15f51151f8c6bcc886954699440a6e1",
+        "rev": "f2bc12af1a6369648aac41041ceeaa0b866599c6",
         "type": "github"
       },
       "original": {
@@ -203,7 +223,7 @@
     "bun2nix_3": {
       "inputs": {
         "flake-parts": "flake-parts_3",
-        "import-tree": "import-tree_3",
+        "import-tree": "import-tree_2",
         "nixpkgs": [
           "iknowyou",
           "nixpkgs"
@@ -222,8 +242,31 @@
         "narHash": "sha256-oQvcadh2BCkrog+SGrG6YffKJrveYpjj3TdQJWaKhaM=",
         "owner": "nix-community",
         "repo": "bun2nix",
+<<<<<<< HEAD
         "rev": "f2bc12af1a6369648aac41041ceeaa0b866599c6",
 >>>>>>> ff1f776 (current changes WIP)
+=======
+        "type": "github"
+      }
+    },
+    "bun2nix_4": {
+      "inputs": {
+        "flake-parts": "flake-parts_4",
+        "import-tree": "import-tree_3",
+        "nixpkgs": [
+          "iknowyou",
+          "nixpkgs"
+        ],
+        "systems": "systems_5",
+        "treefmt-nix": "treefmt-nix_4"
+      },
+      "locked": {
+        "lastModified": 1770895533,
+        "narHash": "sha256-v3QaK9ugy9bN9RXDnjw0i2OifKmz2NnKM82agtqm/UY=",
+        "owner": "nix-community",
+        "repo": "bun2nix",
+        "rev": "c843f477b15f51151f8c6bcc886954699440a6e1",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -240,6 +283,7 @@
         ]
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +342,13 @@
         "rev": "d1c8c8fc09738d1b40576e97c274b4a11a2e0ac7",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778482091,
+        "narHash": "sha256-FOzC6uYB36/q2AFgROCLKUds7p6RN51dHzewHbmZhdk=",
+        "owner": "caelestia-dots",
+        "repo": "cli",
+        "rev": "4b3ffcd644b0e9d3f7180b610f35c4f86024c905",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -317,6 +368,7 @@
         ]
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -375,6 +427,13 @@
         "rev": "64a5507e74f6c7d0c29f9131964412f8f8c4dd89",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778125502,
+        "narHash": "sha256-QAAO9RCR6byVJi50l8RMVJWzrsNYbXonfR6tqU93vIQ=",
+        "owner": "caelestia-dots",
+        "repo": "cli",
+        "rev": "7b8a4281aa8b2b12745de531cce0c65d87aea2e5",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -399,6 +458,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780196414,
         "narHash": "sha256-iXmyWULTZuRd68xRL79e9GyYL9FZ6gfh6zl1PPlWX2A=",
         "owner": "caelestia-dots",
@@ -453,6 +513,13 @@
         "rev": "63bb82762bb29ac9b7fcd5b97839abae721ce860",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778381004,
+        "narHash": "sha256-JwIlrajiY74obxyTMu/Ym6wOEQaCjpHwfziPK+E5u3Q=",
+        "owner": "caelestia-dots",
+        "repo": "shell",
+        "rev": "2ca4ad4a434e91e73504debd5225e66dc5ebb2b6",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -474,6 +541,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780196414,
         "narHash": "sha256-iXmyWULTZuRd68xRL79e9GyYL9FZ6gfh6zl1PPlWX2A=",
         "owner": "caelestia-dots",
@@ -528,6 +596,13 @@
         "rev": "63bb82762bb29ac9b7fcd5b97839abae721ce860",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778381004,
+        "narHash": "sha256-JwIlrajiY74obxyTMu/Ym6wOEQaCjpHwfziPK+E5u3Q=",
+        "owner": "caelestia-dots",
+        "repo": "shell",
+        "rev": "2ca4ad4a434e91e73504debd5225e66dc5ebb2b6",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -582,6 +657,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1779670703,
         "narHash": "sha256-UdfMivNMwCCqQsYDg5pSz8X2IOaOrIZLIIy+Bg3CO2o=",
         "owner": "rafaelmardojai",
@@ -606,6 +682,13 @@
         "repo": "firefox-gnome-theme",
         "rev": "942159e73e40bf785816f7f1f5feed9ef3d7c8f9",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1776136500,
+        "narHash": "sha256-r0gN2brVWA351zwMV0Flmlcd6SGMvYqFbvC3DfKFM8Y=",
+        "owner": "rafaelmardojai",
+        "repo": "firefox-gnome-theme",
+        "rev": "0f8ba203d475587f477e7ae12661bd8459e225b7",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -754,14 +837,21 @@
     "flake-parts_2": {
       "inputs": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "nixpkgs-lib": "nixpkgs-lib_2"
+=======
+        "nixpkgs-lib": [
+          "bun2nix",
+          "nixpkgs"
+        ]
+>>>>>>> 9694579 (first commit)
       },
       "locked": {
-        "lastModified": 1769996383,
-        "narHash": "sha256-AnYjnFWgS49RlqX7LrC4uA+sCCDBj0Ry/WOJ5XWAsa0=",
+        "lastModified": 1777988971,
+        "narHash": "sha256-qIoWPDs+0/8JecyYgE3gpKQxW/4bLW/gp45vow9ioCQ=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "57928607ea566b5db3ad13af0e57e921e6b12381",
+        "rev": "0678d8986be1661af6bb555f3489f2fdfc31f6ff",
         "type": "github"
       },
       "original": {
@@ -772,7 +862,7 @@
     },
     "flake-parts_3": {
       "inputs": {
-        "nixpkgs-lib": "nixpkgs-lib_3"
+        "nixpkgs-lib": "nixpkgs-lib_2"
       },
       "locked": {
         "lastModified": 1769996383,
@@ -790,10 +880,14 @@
     },
     "flake-parts_4": {
       "inputs": {
+<<<<<<< HEAD
         "nixpkgs-lib": "nixpkgs-lib_4"
 =======
         "nixpkgs-lib": "nixpkgs-lib"
 >>>>>>> ff1f776 (current changes WIP)
+=======
+        "nixpkgs-lib": "nixpkgs-lib_3"
+>>>>>>> 9694579 (first commit)
       },
       "locked": {
         "lastModified": 1778716662,
@@ -1170,6 +1264,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780593650,
         "narHash": "sha256-CHo7k65YTL3HY+WQVedDTupji+LMgNlKCdrtRHZFAK4=",
         "owner": "nix-community",
@@ -1238,6 +1333,13 @@
         "rev": "4c5c1e8ba14f1c7475fa31ff11bc1c19cd220974",
 >>>>>>> 2baf997 (current changes WIP)
 >>>>>>> ff1f776 (current changes WIP)
+=======
+        "lastModified": 1778535464,
+        "narHash": "sha256-kkUQYSv70wynJ/DfnGals6r98I6bK3CVNVTN1zbAd7Y=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "b659c7ffd40fc9e3bb60d420c79c67e769b9f4ab",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -1345,6 +1447,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780589398,
         "narHash": "sha256-TTSRAf2EIP6Wy3aiaXhfj2qDtCuO/hN7PWVEEufNSiU=",
         "ref": "refs/heads/main",
@@ -1413,6 +1516,13 @@
         "revCount": 7411,
 >>>>>>> 2baf997 (current changes WIP)
 >>>>>>> ff1f776 (current changes WIP)
+=======
+        "lastModified": 1778504983,
+        "narHash": "sha256-A4YUxIZ/w2KZOiIiI0xVPEoXexGei+R0Va6B+92zW6o=",
+        "ref": "refs/heads/main",
+        "rev": "5e441cae538c9396f2ee30338419bec12969608c",
+        "revCount": 7302,
+>>>>>>> 9694579 (first commit)
         "submodules": true,
         "type": "git",
         "url": "https://github.com/hyprwm/Hyprland"
@@ -1590,6 +1700,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1779475241,
         "narHash": "sha256-Nw4DN0A5krWNcPBvuWe5Gz2yuxsUUPiDgtu6SVPJQeU=",
         "owner": "hyprwm",
@@ -1614,6 +1725,13 @@
         "repo": "hyprutils",
         "rev": "3cd3972b2ee658a14d2610d8494e09259e530124",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1778234770,
+        "narHash": "sha256-jAcsogZwWMfXT9MfXxZzkwliAqIuZUV0p71h6Ba9ReE=",
+        "owner": "hyprwm",
+        "repo": "hyprutils",
+        "rev": "a2dbd8a4cc51f7cbe4224732668392bb1aa79df2",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -1666,6 +1784,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1778410714,
         "narHash": "sha256-o6RzFj4nJXaPRY7EM01siuCQeT41RfwwmcmFQqwFJJg=",
         "owner": "hyprwm",
@@ -1690,6 +1809,13 @@
         "repo": "hyprwire",
         "rev": "85148a8e612808cf5ddb25d0b3c5840f3498a7dc",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777388329,
+        "narHash": "sha256-40YxVGF2rA9iH3D7am5fy4EOSBbMgpJtJ9yhl0Cx+qI=",
+        "owner": "hyprwm",
+        "repo": "hyprwire",
+        "rev": "04be2897e05f9b271d532b5ae56ca088d2eeac02",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -1775,6 +1901,7 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3ef3387 (updated flake)
@@ -1830,6 +1957,15 @@
 =======
         "rev": "1a3573fc9d2486738fe0b2cacc5cd10dd5f3a445",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+    "mnw": {
+      "locked": {
+        "lastModified": 1777828893,
+        "narHash": "sha256-gVWVnmyNr74BVKfhMMZDWkhx2699dhmZ2g0W8TTHtkk=",
+        "owner": "Gerg-L",
+        "repo": "mnw",
+        "rev": "c1c0b544bfabe6669b5a6a0383ccb475fe60258b",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -1895,6 +2031,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780210899,
         "narHash": "sha256-4axz3OBPTKa6LIkXV8n0lc63MQU+et2CB5DGobEAi6k=",
         "owner": "nix-community",
@@ -1949,6 +2086,13 @@
         "rev": "97df9dc0b7c924344b793a15c1e8e4522ebb854e",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778393439,
+        "narHash": "sha256-mOtQxUjtKaPHLeoLOY/YEDctmud1X9KwJr4kE1MJ3Wc=",
+        "owner": "nix-community",
+        "repo": "nix-index-database",
+        "rev": "01466c414c7357ae2ce32be4a272a7c69e94ab5f",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -1963,6 +2107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
         "nixpkgs": "nixpkgs_7",
+<<<<<<< HEAD
         "treefmt-nix": "treefmt-nix_4",
 =======
 =======
@@ -1977,10 +2122,14 @@
 >>>>>>> c4a60c4 (updated flake)
         "treefmt-nix": "treefmt-nix_5",
 >>>>>>> 07a23d9 (first commit)
+=======
+        "treefmt-nix": "treefmt-nix_5",
+>>>>>>> 9694579 (first commit)
         "vpnconfinement": "vpnconfinement",
         "website-builder": "website-builder"
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2039,6 +2188,13 @@
         "rev": "9d686fbae193c4d353477b3691261eb9d944391a",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778346734,
+        "narHash": "sha256-G5ZyrISExI0L6CqHX/0CrdTVEu9lpIdevhpkYwhGf/E=",
+        "owner": "rasmus-kirk",
+        "repo": "nixarr",
+        "rev": "476ffae2a09911008847dd5a86c18b8cb484d198",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -2057,6 +2213,7 @@
         "nixpkgs-nixcord": "nixpkgs-nixcord"
       },
       "locked": {
+<<<<<<< HEAD
         "lastModified": 1780509217,
         "narHash": "sha256-CAes5A7+1S8v0Hb/MyZOs1JXF5RZbgUQ/rpXDEBoc2c=",
         "owner": "FlameFlag",
@@ -2143,6 +2300,13 @@
         "rev": "4ed851c979641e28597a05086332d75cdc9e395f",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778143761,
+        "narHash": "sha256-lkesY6x2X2qxlqLM7CT2iM/0rP2JB7fruPN3h8POXmI=",
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "rev": "3bcaa367d4c550d687a17ac792fd5cda214ee871",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -2193,14 +2357,35 @@
         "type": "github"
       },
       "original": {
+<<<<<<< HEAD
         "owner": "NixOS",
         "ref": "nixos-25.11",
         "repo": "nixpkgs",
+=======
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib_3": {
+      "locked": {
+        "lastModified": 1769909678,
+        "narHash": "sha256-cBEymOf4/o3FD5AZnzC3J9hLbiZ+QDT/KDuyHXVJOpM=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "72716169fe93074c333e8d0173151350670b824c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       }
     },
     "nixpkgs-stable": {
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2246,6 +2431,13 @@
         "rev": "25f538306313eae3927264466c70d7001dcea1df",
 >>>>>>> 7350dc5 (added printer functionality)
 >>>>>>> c95772d (added printer functionality)
+=======
+        "lastModified": 1778430510,
+        "narHash": "sha256-Ti+ZBvW6yrWWAg2szExVTwCd4qOJ3KlVr1tFHfyfi8Q=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8fd9daa3db09ced9700431c5b7ad0e8ba199b575",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -2404,6 +2596,7 @@
 >>>>>>> a152656 (added steam and nixcord)
       "locked": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780243769,
         "narHash": "sha256-x5UQuRsH3MqI0U9afaXSNqzTPSeZlRLvFAav2Ux1pNw=",
         "owner": "NixOS",
@@ -2438,6 +2631,13 @@
         "repo": "nixpkgs",
         "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777268161,
+        "narHash": "sha256-bxrdOn8SCOv8tN4JbTF/TXq7kjo9ag4M+C8yzzIRYbE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1c3fe55ad329cbcb28471bb30f05c9827f724c76",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -2513,6 +2713,25 @@
     },
     "nixpkgs_3": {
       "locked": {
+<<<<<<< HEAD
+=======
+        "lastModified": 1777954456,
+        "narHash": "sha256-hGdgeU2Nk87RAuZyYjyDjFL6LK7dAZN5RE9+hrDTkDU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "549bd84d6279f9852cae6225e372cc67fb91a4c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+>>>>>>> 9694579 (first commit)
         "lastModified": 1772773019,
         "narHash": "sha256-E1bxHxNKfDoQUuvriG71+f+s/NT0qWkImXsYZNFFfCs=",
         "owner": "NixOS",
@@ -2529,6 +2748,7 @@
     },
     "nixpkgs_4": {
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2556,6 +2776,13 @@
         "repo": "nixpkgs",
         "rev": "f83fc3c307e74bc5fd5adb7eb6b8b13ffd2a36e1",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777954456,
+        "narHash": "sha256-hGdgeU2Nk87RAuZyYjyDjFL6LK7dAZN5RE9+hrDTkDU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "549bd84d6279f9852cae6225e372cc67fb91a4c1",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -2640,7 +2867,10 @@
 =======
     "nixpkgs_7": {
       "locked": {
+<<<<<<< HEAD
 >>>>>>> c4a60c4 (updated flake)
+=======
+>>>>>>> 9694579 (first commit)
         "lastModified": 1775595990,
         "narHash": "sha256-OEf7YqhF9IjJFYZJyuhAypgU+VsRB5lD4DuiMws5Ltc=",
         "owner": "nixos",
@@ -2658,6 +2888,7 @@
 <<<<<<< HEAD
     "nixpkgs_8": {
       "locked": {
+<<<<<<< HEAD
         "lastModified": 1767892417,
         "narHash": "sha256-8bW3q88CEg2u4hSP66Vf4lpbLonHz7hqDNBMcCY7E9U=",
         "rev": "3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
@@ -2676,6 +2907,13 @@
         "owner": "nixos",
         "repo": "nixpkgs",
         "rev": "331800de5053fcebacf6813adb5db9c9dca22a0c",
+=======
+        "lastModified": 1777954456,
+        "narHash": "sha256-hGdgeU2Nk87RAuZyYjyDjFL6LK7dAZN5RE9+hrDTkDU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "549bd84d6279f9852cae6225e372cc67fb91a4c1",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -2895,6 +3133,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780281641,
         "narHash": "sha256-M/+hUKoKbHXpV0xGVfELbN1Ds1aoe3pL5p5/t46YhVo=",
         "owner": "nix-community",
@@ -2949,6 +3188,13 @@
         "rev": "30f9ae2f04174de63ba8bcf3580ca90843b28a01",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1777598946,
+        "narHash": "sha256-X239dAGaU1+gfDj8jKH8GzlqKMcxaVfXOio+uzBOkeE=",
+        "owner": "nix-community",
+        "repo": "NUR",
+        "rev": "5d55af01c0f86be583931fe99207fc56c14134b3",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3034,6 +3280,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780511420,
         "narHash": "sha256-Ib44d47GTijSfCtcxFDliP3C9uUiLDYaAE/nVH8TQoY=",
         "owner": "notashelf",
@@ -3105,6 +3352,13 @@
         "rev": "29f7eb8491d9833ee55006ab11169130a60c2652",
 >>>>>>> 2baf997 (current changes WIP)
 >>>>>>> ff1f776 (current changes WIP)
+=======
+        "lastModified": 1778408907,
+        "narHash": "sha256-QXjdRz5fssxAWDrtfBYxvjMtTqJzQAbnAmX3u22xCck=",
+        "owner": "notashelf",
+        "repo": "nvf",
+        "rev": "e86a92e4b29b499e5f1285b737b7612115103da9",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3164,6 +3418,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1779430452,
         "narHash": "sha256-zTslhsxLqUlRTML506iougTGzyR38Fzhzn7t4KDEuuE=",
         "ref": "refs/heads/master",
@@ -3188,6 +3443,13 @@
         "rev": "4b4fca3224ab977dc515ac0bb78d00b3dfa71e00",
         "revCount": 819,
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1778222427,
+        "narHash": "sha256-6GFiP611nEJvtm+m03sMyfaVIJ9QOCi//hS+PPKyyPA=",
+        "ref": "refs/heads/master",
+        "rev": "d1760ed1f31c02a95b37a9bf4084129c829ebe7f",
+        "revCount": 817,
+>>>>>>> 9694579 (first commit)
         "type": "git",
         "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
       },
@@ -3207,6 +3469,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1779430452,
         "narHash": "sha256-zTslhsxLqUlRTML506iougTGzyR38Fzhzn7t4KDEuuE=",
         "ref": "refs/heads/master",
@@ -3231,6 +3494,13 @@
         "rev": "4b4fca3224ab977dc515ac0bb78d00b3dfa71e00",
         "revCount": 819,
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1778222427,
+        "narHash": "sha256-6GFiP611nEJvtm+m03sMyfaVIJ9QOCi//hS+PPKyyPA=",
+        "ref": "refs/heads/master",
+        "rev": "d1760ed1f31c02a95b37a9bf4084129c829ebe7f",
+        "revCount": 817,
+>>>>>>> 9694579 (first commit)
         "type": "git",
         "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
       },
@@ -3354,6 +3624,7 @@
       },
       "locked": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780547341,
         "narHash": "sha256-Gq8KNx5A7hBB3uGJaj6eQfLDIz5YdLu92gqBcvHvoUo=",
 =======
@@ -3372,6 +3643,13 @@
         "owner": "Mic92",
         "repo": "sops-nix",
         "rev": "9ed65852b6257fbeae4355bc24ecfea307ca759a",
+=======
+        "lastModified": 1777944972,
+        "narHash": "sha256-VfGRo1qTBKOe3s2gOv8LSoA6Fk19PvBlwQ1ECN0Evn8=",
+        "owner": "Mic92",
+        "repo": "sops-nix",
+        "rev": "c591bf665727040c6cc5cb409079acb22dcce33c",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3396,6 +3674,7 @@
 >>>>>>> 3ef3387 (updated flake)
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         "lastModified": 1780422259,
@@ -3455,6 +3734,13 @@
         "rev": "8414bbf2fcc7bc0a22c675e498e3c7365c1aec0a",
 >>>>>>> 139b027 (updated flake)
 >>>>>>> 356e5bf (updated flake)
+=======
+        "lastModified": 1778540809,
+        "narHash": "sha256-FNXls2QZTcxY0Dem3QtSewnr8vUKMDsTw9m8pLOnhTc=",
+        "owner": "Gerg-L",
+        "repo": "spicetify-nix",
+        "rev": "83939d7df4c0f1b8ee88cabde112223280a48554",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3549,6 +3835,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780584783,
         "narHash": "sha256-b4o1AlQpGgpUfieaNz/3gsSzogjoiczmnlbDj0khImY=",
         "owner": "danth",
@@ -3615,6 +3902,13 @@
         "rev": "525965744b770af79c985ae5c43c65e441dc8b29",
 >>>>>>> 2baf997 (current changes WIP)
 >>>>>>> ff1f776 (current changes WIP)
+=======
+        "lastModified": 1778104276,
+        "narHash": "sha256-/DSSnU0LLmOTG/OCgGwYpxP6+5YvxRx2g/GhI4x6aCU=",
+        "owner": "danth",
+        "repo": "stylix",
+        "rev": "18ed8d270231e067fe2739998479ed5d7c659c2c",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3833,6 +4127,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1777806186,
         "narHash": "sha256-PDF0/wObw4nIsSBeXVYLsloXOiphXCgIdsrNcVXguKs=",
         "owner": "tinted-theming",
@@ -3857,6 +4152,13 @@
         "repo": "schemes",
         "rev": "0c94645546f4f3ddac77a1a5fce54eb95bf50795",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777041405,
+        "narHash": "sha256-BAGZ7ObFV/9Z61OJZun7ifPyhkuHqNuW1QIhQ8LuzCo=",
+        "owner": "tinted-theming",
+        "repo": "schemes",
+        "rev": "5f868b3a338b6904c47f3833b9c411be641983a8",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3868,6 +4170,7 @@
     "tinted-tmux": {
       "flake": false,
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3895,6 +4198,13 @@
         "repo": "tinted-tmux",
         "rev": "fe0203a198690e71a5ff11e08812a4673de3678d",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777169200,
+        "narHash": "sha256-h7dDbIzP5hDr9v97w9PL6jdAgXawmj6krcH+959rqpU=",
+        "owner": "tinted-theming",
+        "repo": "tinted-tmux",
+        "rev": "f798c2dce44ef815bb6b8f05a82135c7942d35ac",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3906,6 +4216,7 @@
     "tinted-zed": {
       "flake": false,
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3933,6 +4244,13 @@
         "repo": "base16-zed",
         "rev": "9cd816033ff969415b190722cddf134e78a5665f",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777463218,
+        "narHash": "sha256-Bhkozqtq3BKLqWTlmKm8uAptfX4aRGI8QX3eEL54Vpc=",
+        "owner": "tinted-theming",
+        "repo": "base16-zed",
+        "rev": "5768d08ed2e7944a26a958868cdb073cb8856dae",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -3976,8 +4294,31 @@
     },
 <<<<<<< HEAD
     "treefmt-nix_2": {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+      "inputs": {
+        "nixpkgs": [
+          "bun2nix",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1775636079,
+        "narHash": "sha256-pc20NRoMdiar8oPQceQT47UUZMBTiMdUuWrYu2obUP0=",
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "rev": "790751ff7fd3801feeaf96d7dc416a8d581265ba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "type": "github"
+      }
+    },
+>>>>>>> 9694579 (first commit)
     "treefmt-nix_3": {
 >>>>>>> ff1f776 (current changes WIP)
       "inputs": {
@@ -4024,6 +4365,7 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "treefmt-nix_4": {
 =======
     "treefmt-nix_5": {
@@ -4036,6 +4378,8 @@
 =======
 >>>>>>> c4a60c4 (updated flake)
 >>>>>>> 3ef3387 (updated flake)
+=======
+    "treefmt-nix_5": {
       "inputs": {
         "nixpkgs": [
           "nixarr",
@@ -4043,6 +4387,29 @@
         ]
       },
       "locked": {
+        "lastModified": 1775125835,
+        "narHash": "sha256-2qYcPgzFhnQWchHo0SlqLHrXpux5i6ay6UHA+v2iH4U=",
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "rev": "75925962939880974e3ab417879daffcba36c4a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "type": "github"
+      }
+    },
+    "usbguard-tui": {
+>>>>>>> 9694579 (first commit)
+      "inputs": {
+        "nixpkgs": [
+          "nixarr",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+<<<<<<< HEAD
         "lastModified": 1775125835,
         "narHash": "sha256-2qYcPgzFhnQWchHo0SlqLHrXpux5i6ay6UHA+v2iH4U=",
         "owner": "numtide",
@@ -4133,6 +4500,13 @@
         "repo": "usbguard-tui",
         "rev": "031ff4869609f9f3c100275fb666d43daa373856",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1778523007,
+        "narHash": "sha256-Dg8vRnAcNwexpXFM+Y6V4IBaU6AH4Ube4IECdz568XE=",
+        "owner": "anotherhadi",
+        "repo": "usbguard-tui",
+        "rev": "64b36e716cd4ee0ff7c6b9f0225bd80510242e9c",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
@@ -4212,6 +4586,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1778265244,
         "narHash": "sha256-8jlPtGSsv/CQY6tVVyLF4Jjd0gnS+Zbn9yk/V13A9nM=",
         "owner": "hyprwm",
@@ -4236,6 +4611,13 @@
         "repo": "xdg-desktop-portal-hyprland",
         "rev": "813ea5ca9a1702a9a2d1f5836bc00172ef698968",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1777585783,
+        "narHash": "sha256-JTeWRy42VElroJ0rVdZuVXSoTLsx+NzQfGPKMbtn3SU=",
+        "owner": "hyprwm",
+        "repo": "xdg-desktop-portal-hyprland",
+        "rev": "fa50d6fbaff8f42c61071b87b034a90d82a33558",
+>>>>>>> 9694579 (first commit)
         "type": "github"
       },
       "original": {
