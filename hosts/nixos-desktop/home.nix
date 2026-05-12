@@ -1,0 +1,61 @@
+{config, ...}: {
+  imports = [
+    # Programs
+    ../../home/programs/brave
+    ../../home/programs/proton
+    ../../home/programs/proton/auto-start-vpn.nix
+    ../../home/programs/ghostty
+    ../../home/programs/nvf
+    ../../home/programs/shell
+    ../../home/programs/git
+    ../../home/programs/git/lazygit.nix
+    ../../home/programs/git/signing.nix # CHANGEDME: Change the key or remove this file
+    ../../home/programs/spicetify
+    ../../home/programs/thunar
+    ../../home/programs/nixy
+    ../../home/programs/nightshift
+    ../../home/programs/qutebrowser
+    ../../home/programs/nix-utils
+    ../../home/programs/discord
+
+    ../../home/programs/group/basic-apps.nix
+    #    ../../home/programs/group/cybersecurity.nix
+    ../../home/programs/group/dev.nix
+    ../../home/programs/group/misc.nix
+
+    # System (Desktop environment like stuff)
+    ../../home/system/hyprland
+    ../../home/system/caelestia-shell
+    ../../home/system/hyprpaper
+    ../../home/system/mime
+    ../../home/system/udiskie
+
+    ./variables.nix # Mostly user-specific configuration
+  ];
+
+  home = {
+    inherit (config.var) username;
+    homeDirectory = "/home/" + config.var.username;
+    file.".face" = {
+      source = ./profile_picture.png;
+    };
+
+    sessionVariables = {
+    };
+
+    # Don't touch this
+    stateVersion = "24.05";
+  };
+
+  wayland.windowManager.hyprland.settings.monitor = [
+    "HDMI-2,highres,0x0,1" # My internal laptop screen
+  ];
+
+  programs = {
+    home-manager.enable = true;
+    nixy = {
+      enable = true;
+      configDirectory = config.var.configDirectory;
+    };
+  };
+}

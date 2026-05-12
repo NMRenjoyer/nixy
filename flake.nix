@@ -44,6 +44,9 @@
     blog.url = "github:anotherhadi/blog";
     awesome-wallpapers.url = "github:anotherhadi/awesome-wallpapers";
     iknowyou.url = "github:anotherhadi/iknowyou";
+    spilltea.url = "github:anotherhadi/spilltea";
+
+    nixcord.url = "github:FlameFlag/nixcord";
   };
 
   outputs = inputs @ {
@@ -77,6 +80,7 @@
           # jack = import ./hosts/server/flake.nix args;
 
           nixos-laptop = import ./hosts/nixos-laptop/flake.nix args;
+          nixos-desktop = import ./hosts/nixos-desktop/flake.nix args;
         };
       }
     ];
