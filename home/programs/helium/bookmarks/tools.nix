@@ -4,20 +4,8 @@
     icon = "handyman";
     bookmarks = [
       {
-        name = "Maps";
-        url = "https://maps.apple.com";
-      }
-      {
         name = "Excalidraw";
         url = "https://excalidraw.com";
-      }
-      {
-        name = "Cobalt (downloader)";
-        url = "https://cobalt.meowing.de";
-      }
-      {
-        name = "Mazanoke (image)";
-        url = "https://mazanoke.hadi.icu";
       }
       {
         name = "Vert";
@@ -34,14 +22,6 @@
       {
         name = "PrivateBin";
         url = "https://privatebin.net";
-      }
-      {
-        name = "Claude";
-        url = "https://claude.ai";
-      }
-      {
-        name = "Gemini";
-        url = "https://gemini.google.com";
       }
     ];
   }
