@@ -262,6 +262,28 @@
         action = "<nop>";
         silent = true;
       }
+      # Windows
+      {
+        key = "<leader>ws";
+        mode = "n";
+        silent = true;
+        action = "<cmd>split<cr>";
+        desc = "Split";
+      }
+      {
+        key = "<leader>wv";
+        mode = "n";
+        silent = true;
+        action = "<cmd>vsplit<cr>";
+        desc = "VSplit";
+      }
+      {
+        key = "<leader>wd";
+        mode = "n";
+        silent = true;
+        action = "<cmd>close<cr>";
+        desc = "Close";
+      }
     ];
   };
 }
