@@ -15,5 +15,8 @@
     librewolf # Backup browser
 
     caligula # User-friendly, lightweight TUI for disk imaging (ISO, USB BOOT)
+    element-desktop # Messaging app
+
+    keymapp # keybinding app
   ];
 }

@@ -64,6 +64,8 @@ in {
   };
   console.keyMap = keyboardLayout;
 
+  hardware.keyboard.zsa.enable = true;
+
   environment.variables = {
     XDG_DATA_HOME = "$HOME/.local/share";
     PASSWORD_STORE_DIR = "$HOME/.local/share/password-store";
