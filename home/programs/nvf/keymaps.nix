@@ -203,19 +203,6 @@
         desc = "Save file";
       }
 
-      # Deactivate "esc"
-      {
-        key = "<Esc>";
-        mode = [
-          "n"
-          "i"
-          "v"
-        ];
-        silent = true;
-        action = "<Nop>";
-        desc = "Disable Escape";
-      }
-
       # Disable Arrow Keys in Normal Mode and Middle click
       {
         key = "<Up>";
