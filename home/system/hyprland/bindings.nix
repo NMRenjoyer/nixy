@@ -158,17 +158,17 @@ in {
         ", Print, global, caelestia:screenshotFreeze" # Capture region (freeze)
         "$shiftMod+Alt, S, global, caelestia:screenshot" # Capture region
       ]
-      ++ (builtins.concatLists (
-        builtins.genList (
-          i: let
-            ws = i + 1;
-          in [
-            "$mod,code:1${toString i}, workspace, ${toString ws}"
-            "$mod SHIFT,code:1${toString i}, movetoworkspace, ${toString ws}"
-          ]
-        )
-        9
-      ));
+      ++ (builtins.concatLists (builtins.genList (i: let
+          ws = i + 1;
+          numpadCodes = ["KP_End" "KP_Down" "KP_Next" "KP_Left" "KP_Begin" "KP_Right" "KP_Home" "KP_Up" "KP_Prior"];
+          code = builtins.toString (builtins.elemAt numpadCodes i);
+        in [
+          "$mod,code:1${toString i}, workspace, ${toString ws}"
+          "$mod SHIFT,code:1${toString i}, movetoworkspace, ${toString ws}"
+          "$mod, ${code}, workspace, ${toString ws}"
+          "$mod SHIFT, ${code}, movetoworkspace, ${toString ws}"
+        ])
+        9));
 
     bindm = [
       "$mod,mouse:272, movewindow" # Move Window (mouse)
