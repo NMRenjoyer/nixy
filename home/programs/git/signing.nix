@@ -1,6 +1,6 @@
 # This file is used to sign git commits using an SSH key.
 {
-  home.file.".ssh/allowed_signers".text = "* ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZKN+lNdaDrBwNC6eR4UzwXm+teEUl4oEilRaiSJUtV dcreetz+github@proton.me";
+  home.file.".ssh/allowed_signers".text = "* ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZKN+lNdaDrBwNC6eR4UzwXm+teEUl4oEilRaiSJUtV dcreetz@nixos-desktop";
 
   programs.git = {
     signing.format = "openpgp";
