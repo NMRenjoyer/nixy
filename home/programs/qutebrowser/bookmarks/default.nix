@@ -8,10 +8,10 @@
     (import ./general.nix)
     ++ (import ./tools.nix)
     ++ (import ./social.nix)
-    ++ (import ./infosec.nix)
+    #   ++ (import ./infosec.nix)
     ++ (import ./other.nix)
-    ++ (import ./jack.nix);
-
+    #   ++ (import ./jack.nix);
+    ;
   c = config.lib.stylix.colors;
 
   stripProtocol = url: lib.removePrefix "https://" (lib.removePrefix "http://" url);
