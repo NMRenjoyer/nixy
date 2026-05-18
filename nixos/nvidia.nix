@@ -5,8 +5,8 @@
   config,
   ...
 }: let
-  # Using beta driver for recent GPUs like RTX 4070
-  nvidiaDriverChannel = config.boot.kernelPackages.nvidiaPackages.production;
+  # Using legacy driver for Quadro P2000
+  nvidiaDriverChannel = config.boot.kernelPackages.nvidiaPackages.legacy_580;
 in {
   # Video drivers configuration for Xorg and Wayland
   services.xserver.videoDrivers = ["nvidia"]; # Simplified - other modules are loaded automatically
@@ -19,7 +19,7 @@ in {
 
   # Blacklist nouveau to avoid conflicts
   boot.blacklistedKernelModules = ["nouveau"];
-
+  /*
   # Environment variables for better compatibility
   environment.variables = {
     LIBVA_DRIVER_NAME = "nvidia"; # Hardware video acceleration
@@ -31,7 +31,7 @@ in {
     NVD_BACKEND = "direct"; # Configuration for new driver
     MOZ_ENABLE_WAYLAND = "1"; # Wayland support for Firefox
   };
-
+  */
   # Configuration for proprietary packages
   nixpkgs.config = {
     nvidia.acceptLicense = true;
@@ -44,27 +44,27 @@ in {
       nvidiaSettings = true; # Nvidia settings utility
       powerManagement = {
         enable = true; # Power management
-        finegrained = true; # More precise power consumption control
+        #finegrained = true; # More precise power consumption control
       };
       modesetting.enable = true; # Required for Wayland
       package = nvidiaDriverChannel;
       forceFullCompositionPipeline = true; # Prevents screen tearing
 
-      # Configuration for hybrid AMD+Nvidia laptop
+      # Configuration for hybrid Intel+Nvidia laptop
       prime = {
         # Optimized configuration for switchable graphics laptops
-        offload = {
-          enable = true; # Mode optimized for power saving
-          enableOffloadCmd = true; # Allows running applications with dedicated GPU
-        };
-        # sync.enable disabled as offload is generally better for laptops
-        sync.enable = false;
+        #offload = {
+        #enable = true; # Mode optimized for power saving
+        #enableOffloadCmd = true; # Allows running applications with dedicated GPU
+        #};
+        # sync.enable re-enabled for my setup; Quadro P2000 is pre-turing
+        sync.enable = true;
         # PCI IDs verified for your hardware
-        amdgpuBusId = "PCI:5:0:0"; # Integrated AMD GPU
+        intelBusId = "PCI:0:2:0"; # Integrated Intel GPU
         nvidiaBusId = "PCI:1:0:0"; # Dedicated Nvidia GPU
       };
     };
-
+    /*
     # Enhanced graphics support
     graphics = {
       enable = true;
@@ -80,8 +80,8 @@ in {
         libva
       ];
     };
+    */
   };
-
   # Nix cache for CUDA
   nix.settings = {
     substituters = ["https://cuda-maintainers.cachix.org"];
