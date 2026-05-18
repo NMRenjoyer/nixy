@@ -40,7 +40,7 @@
     };
 
     sessionVariables = {
-      AQ_DRM_DEVICES = "/dev/dri/card1"; # CHANGEDME: Related to the GPU
+      AQ_DRM_DEVICES = "/dev/dri/card1:/dev/dri/card0"; # CHANGEDME: Related to the GPU
     };
 
     # Don't touch this
