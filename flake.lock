@@ -84,11 +84,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1777068949,
-        "narHash": "sha256-HwE/JZbPEka5y5dVlvpdrbOZB28tlWDbZhuA21GfyGc=",
+        "lastModified": 1780174698,
+        "narHash": "sha256-fYHv6Z03ysxIe8saRNYHWi7njWcT7AfPNGNEm5JJIQQ=",
         "owner": "anotherhadi",
         "repo": "awesome-wallpapers",
-        "rev": "43c242ecb296e5b840c0ea70a695bf8c04835803",
+        "rev": "6edc4aeb12d517e3aaad239e579c89b080f07dab",
         "type": "github"
       },
       "original": {
@@ -179,6 +179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780522780,
         "narHash": "sha256-1gM3dJtcTx4Bmpi8sg7HSysSY1/Cv+VgdBwwsM/pW1s=",
         "owner": "anotherhadi",
@@ -203,6 +204,13 @@
 >>>>>>> 9694579 (first commit)
 =======
 >>>>>>> c4a60c4 (updated flake)
+=======
+        "lastModified": 1780320691,
+        "narHash": "sha256-ItSmnC7x5ssi6b/zExWPPWyKar2ZhBp77jumJwyJv2c=",
+        "owner": "anotherhadi",
+        "repo": "blog",
+        "rev": "15f2b6c184aa2a3d3fbf27eeb8f80a938de279a9",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -370,6 +378,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780375472,
         "narHash": "sha256-Q8RAJoYlakA6B2I5DVcuxzNbhCNU1nnIjqQZYP1KGrM=",
         "owner": "caelestia-dots",
@@ -443,6 +452,13 @@
         "repo": "cli",
         "rev": "64a5507e74f6c7d0c29f9131964412f8f8c4dd89",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780375472,
+        "narHash": "sha256-Q8RAJoYlakA6B2I5DVcuxzNbhCNU1nnIjqQZYP1KGrM=",
+        "owner": "caelestia-dots",
+        "repo": "cli",
+        "rev": "d1c8c8fc09738d1b40576e97c274b4a11a2e0ac7",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -469,6 +485,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1779768519,
         "narHash": "sha256-2n/447oNfAZrl1yncafLPgXMx5tuTF6T2B+zI/zFYkI=",
         "owner": "caelestia-dots",
@@ -542,6 +559,13 @@
         "repo": "cli",
         "rev": "7f300626704b7a86fe838ab58df654fa99779613",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1779768519,
+        "narHash": "sha256-2n/447oNfAZrl1yncafLPgXMx5tuTF6T2B+zI/zFYkI=",
+        "owner": "caelestia-dots",
+        "repo": "cli",
+        "rev": "64a5507e74f6c7d0c29f9131964412f8f8c4dd89",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -569,6 +593,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780196414,
         "narHash": "sha256-iXmyWULTZuRd68xRL79e9GyYL9FZ6gfh6zl1PPlWX2A=",
         "owner": "caelestia-dots",
@@ -642,6 +667,13 @@
         "repo": "shell",
         "rev": "2f7ab5e4140d9188185f6c3164e428c1eeda1fe6",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780196414,
+        "narHash": "sha256-iXmyWULTZuRd68xRL79e9GyYL9FZ6gfh6zl1PPlWX2A=",
+        "owner": "caelestia-dots",
+        "repo": "shell",
+        "rev": "63bb82762bb29ac9b7fcd5b97839abae721ce860",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -666,6 +698,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780196414,
         "narHash": "sha256-iXmyWULTZuRd68xRL79e9GyYL9FZ6gfh6zl1PPlWX2A=",
         "owner": "caelestia-dots",
@@ -739,6 +772,13 @@
         "repo": "shell",
         "rev": "2f7ab5e4140d9188185f6c3164e428c1eeda1fe6",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780196414,
+        "narHash": "sha256-iXmyWULTZuRd68xRL79e9GyYL9FZ6gfh6zl1PPlWX2A=",
+        "owner": "caelestia-dots",
+        "repo": "shell",
+        "rev": "63bb82762bb29ac9b7fcd5b97839abae721ce860",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -785,12 +825,16 @@
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1775241840,
-        "narHash": "sha256-lknjyRTFqk/lmgWNfTDsJYDyQQ+x2yq79IMVT3ASOD8=",
+        "lastModified": 1780323652,
+        "narHash": "sha256-Ol1ygle0M95z0gOIYGD9WK4gl5xsWi7TvS7IgnK/WJQ=",
         "owner": "anotherhadi",
         "repo": "default-creds",
+<<<<<<< HEAD
         "rev": "7d1650a207b4dd9bb165ce264dc8d4846113f7be",
 >>>>>>> c4a60c4 (updated flake)
+=======
+        "rev": "98b207fe54e07086346f5d77c7a5ec6044e67cca",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -1543,6 +1587,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780593650,
         "narHash": "sha256-CHo7k65YTL3HY+WQVedDTupji+LMgNlKCdrtRHZFAK4=",
         "owner": "nix-community",
@@ -1630,6 +1675,13 @@
         "repo": "home-manager",
         "rev": "61e2c9659324181e0f0ed911958c536333b1d4f6",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780408569,
+        "narHash": "sha256-s7Tv6FUQThRAvW8En8XVC6HMb0uiikzVccCcCo9u/Bg=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "f384af1bec6423a0d4ba1855917ab948f64e5808",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -1778,6 +1830,7 @@
       },
       "locked": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c4a60c4 (updated flake)
         "lastModified": 1778588655,
         "narHash": "sha256-cWRlVJNNeiEFRgNmcygWOo28cQOExJ7508nh28UyUig=",
@@ -1833,6 +1886,13 @@
         "rev": "ebc1816dfb27f1091c9713876669e092a215382d",
         "revCount": 7376,
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780394506,
+        "narHash": "sha256-NDHjXx0Tnt7buOP1zq7FEhiXLMKL/KO3sA5ijsy53BY=",
+        "ref": "refs/heads/main",
+        "rev": "7df262e9f35c06c382444e45dfda17306dc70fc7",
+        "revCount": 7404,
+>>>>>>> 139b027 (updated flake)
         "submodules": true,
         "type": "git",
         "url": "https://github.com/hyprwm/Hyprland"
@@ -2423,6 +2483,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1780210899,
         "narHash": "sha256-4axz3OBPTKa6LIkXV8n0lc63MQU+et2CB5DGobEAi6k=",
         "owner": "nix-community",
@@ -2496,6 +2557,13 @@
         "repo": "nix-index-database",
         "rev": "8fba98c80b48fa013820e0163c5096922fea4ddd",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780210899,
+        "narHash": "sha256-4axz3OBPTKa6LIkXV8n0lc63MQU+et2CB5DGobEAi6k=",
+        "owner": "nix-community",
+        "repo": "nix-index-database",
+        "rev": "97df9dc0b7c924344b793a15c1e8e4522ebb854e",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -2539,6 +2607,7 @@
         "website-builder": "website-builder"
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2619,6 +2688,13 @@
         "repo": "nixarr",
         "rev": "3bde55fe657ee3ec1c2b2c05294ff381cb8f2d43",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780144466,
+        "narHash": "sha256-EydxECBxfJK3ByItkowsHVaGDhIMt+d05bgTJIAcIqM=",
+        "owner": "rasmus-kirk",
+        "repo": "nixarr",
+        "rev": "9d686fbae193c4d353477b3691261eb9d944391a",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -2649,11 +2725,11 @@
         "nixpkgs-nixcord": "nixpkgs-nixcord"
       },
       "locked": {
-        "lastModified": 1779960693,
-        "narHash": "sha256-TrkVXjb2vuSOiFyMipwlQAST+K+GsN89CtpUBK+IOm4=",
+        "lastModified": 1780413989,
+        "narHash": "sha256-vFqYLeUf9s7IEgIWVfyGwLxy9Ok61jSE4ii6EbE8f7w=",
         "owner": "FlameFlag",
         "repo": "nixcord",
-        "rev": "491f8c5e86a3aafe431398875b6755f7cb4ca5ee",
+        "rev": "21b58cf6490539215db749da33994d5c5ee3f8c3",
         "type": "github"
       },
       "original": {
@@ -2663,6 +2739,7 @@
       }
     },
     "nixos-hardware": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a152656 (added steam and nixcord)
       "locked": {
@@ -2774,6 +2851,17 @@
         "repo": "nixos-hardware",
         "rev": "ef4efb84766a166c906bd55759574676bf91267c",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+      "inputs": {
+        "nixpkgs": "nixpkgs_9"
+      },
+      "locked": {
+        "lastModified": 1780310866,
+        "narHash": "sha256-fPBRVf6A5xlACYcOI59shGrjURuvwu0lRsDoSCEXt/I=",
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "rev": "4ed851c979641e28597a05086332d75cdc9e395f",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -3005,6 +3093,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1778869304,
         "narHash": "sha256-30sZNZoA1cqF5JNO9fVX+wgiQYjB7HJqqJ4ztCDeBZE=",
         "owner": "NixOS",
@@ -3050,6 +3139,24 @@
 >>>>>>> 3ef3387 (updated flake)
 =======
 =======
+=======
+        "lastModified": 1780243769,
+        "narHash": "sha256-x5UQuRsH3MqI0U9afaXSNqzTPSeZlRLvFAav2Ux1pNw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "331800de5053fcebacf6813adb5db9c9dca22a0c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_11": {
+      "locked": {
+>>>>>>> 139b027 (updated flake)
         "lastModified": 1778869304,
         "narHash": "sha256-30sZNZoA1cqF5JNO9fVX+wgiQYjB7HJqqJ4ztCDeBZE=",
         "owner": "nixos",
@@ -3142,7 +3249,11 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "nixpkgs_13": {
+=======
+    "nixpkgs_12": {
+>>>>>>> 139b027 (updated flake)
 =======
     "nixpkgs_12": {
 >>>>>>> 139b027 (updated flake)
@@ -3169,6 +3280,7 @@
         "type": "github"
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3257,6 +3369,9 @@
 =======
     "nixpkgs_13": {
 >>>>>>> 139b027 (updated flake)
+=======
+    "nixpkgs_13": {
+>>>>>>> 139b027 (updated flake)
       "locked": {
         "lastModified": 1779560665,
         "narHash": "sha256-tpyBcxPpcQb8ukyNF7DoCwfSY3VPsxHoYwj00Cayv5o=",
@@ -3272,6 +3387,7 @@
         "type": "github"
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
     "nixpkgs_16": {
 =======
@@ -3289,6 +3405,9 @@
 =======
     "nixpkgs_13": {
 >>>>>>> c4a60c4 (updated flake)
+=======
+    "nixpkgs_14": {
+>>>>>>> 139b027 (updated flake)
       "locked": {
         "lastModified": 1777268161,
         "narHash": "sha256-bxrdOn8SCOv8tN4JbTF/TXq7kjo9ag4M+C8yzzIRYbE=",
@@ -3793,19 +3912,23 @@
 =======
     "nixpkgs_9": {
       "locked": {
-        "lastModified": 1779560665,
-        "narHash": "sha256-tpyBcxPpcQb8ukyNF7DoCwfSY3VPsxHoYwj00Cayv5o=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
-        "type": "github"
+        "lastModified": 1767892417,
+        "narHash": "sha256-8bW3q88CEg2u4hSP66Vf4lpbLonHz7hqDNBMcCY7E9U=",
+        "rev": "3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre924538.3497aa5c9457/nixexprs.tar.xz"
       },
       "original": {
+<<<<<<< HEAD
         "owner": "nixos",
 >>>>>>> c4a60c4 (updated flake)
         "ref": "nixos-unstable",
         "repo": "nixpkgs",
         "type": "github"
+=======
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz"
+>>>>>>> 139b027 (updated flake)
       }
     },
     "nur": {
@@ -3820,6 +3943,7 @@
         ]
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3900,6 +4024,13 @@
         "repo": "NUR",
         "rev": "57800b7ab648725ccd33551d01484ee14952ad3f",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780281641,
+        "narHash": "sha256-M/+hUKoKbHXpV0xGVfELbN1Ds1aoe3pL5p5/t46YhVo=",
+        "owner": "nix-community",
+        "repo": "NUR",
+        "rev": "30f9ae2f04174de63ba8bcf3580ca90843b28a01",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -3990,6 +4121,7 @@
         "flake-parts": "flake-parts_6",
         "mnw": "mnw",
         "ndg": "ndg",
+<<<<<<< HEAD
         "nixpkgs": "nixpkgs_10",
 <<<<<<< HEAD
 >>>>>>> a152656 (added steam and nixcord)
@@ -4097,6 +4229,17 @@
         "repo": "nvf",
         "rev": "fb523e392c9f52fbe7a4e2bcff5744db93aa2d8f",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "nixpkgs": "nixpkgs_11",
+        "systems": "systems_6"
+      },
+      "locked": {
+        "lastModified": 1780421419,
+        "narHash": "sha256-EkZYvhK9B9M9j9vuLNSexG1Uf51UshGkPy5iVpYORe8=",
+        "owner": "notashelf",
+        "repo": "nvf",
+        "rev": "8265ea062b4c37dc1b9846ec83bb8c9615048ef1",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -4379,11 +4522,15 @@
         "nixarr": "nixarr",
         "nixcord": "nixcord",
         "nixos-hardware": "nixos-hardware",
+<<<<<<< HEAD
         "nixpkgs": "nixpkgs_9",
 <<<<<<< HEAD
 >>>>>>> a152656 (added steam and nixcord)
 =======
 >>>>>>> c4a60c4 (updated flake)
+=======
+        "nixpkgs": "nixpkgs_10",
+>>>>>>> 139b027 (updated flake)
         "nixpkgs-stable": "nixpkgs-stable",
         "nvf": "nvf",
         "sops-nix": "sops-nix",
@@ -4430,6 +4577,7 @@
       "inputs": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "nixpkgs": "nixpkgs_13"
 =======
         "nixpkgs": "nixpkgs_11"
@@ -4459,6 +4607,9 @@
 =======
 =======
         "nixpkgs": "nixpkgs_11"
+=======
+        "nixpkgs": "nixpkgs_12"
+>>>>>>> 139b027 (updated flake)
       },
       "locked": {
 >>>>>>> c4a60c4 (updated flake)
@@ -4496,6 +4647,7 @@
 >>>>>>> 3ef3387 (updated flake)
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4579,6 +4731,13 @@
         "repo": "spicetify-nix",
         "rev": "1362178e5f5f7a848c49fe9dee004ef8824f100a",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780422259,
+        "narHash": "sha256-dWGk4SEdI189kQW5cE4Uo1Mc+P+kQEdgMcyMgTtmQOA=",
+        "owner": "Gerg-L",
+        "repo": "spicetify-nix",
+        "rev": "8414bbf2fcc7bc0a22c675e498e3c7365c1aec0a",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -4675,7 +4834,7 @@
 =======
         "flake-parts": "flake-parts_7",
         "gnome-shell": "gnome-shell",
-        "nixpkgs": "nixpkgs_12",
+        "nixpkgs": "nixpkgs_13",
         "nur": "nur",
         "systems": "systems_8",
 >>>>>>> c4a60c4 (updated flake)
@@ -4685,6 +4844,7 @@
         "tinted-zed": "tinted-zed"
       },
       "locked": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4778,6 +4938,13 @@
         "repo": "stylix",
         "rev": "d7ba76c960a84333a7a1fc62ccf84a266086903a",
 >>>>>>> 7350dc5 (added printer functionality)
+=======
+        "lastModified": 1780418031,
+        "narHash": "sha256-/lkloe/Vlpq8GmKiHzxA3woYUubWX1mV/RDtv8TE4d0=",
+        "owner": "danth",
+        "repo": "stylix",
+        "rev": "b670c2bdf09861b3215f30fc8a70f2fe26dc5f16",
+>>>>>>> 139b027 (updated flake)
         "type": "github"
       },
       "original": {
@@ -5376,6 +5543,7 @@
 >>>>>>> 9694579 (first commit)
       "inputs": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "nixpkgs": [
           "nixarr",
           "nixpkgs"
@@ -5445,6 +5613,9 @@
 =======
         "nixpkgs": "nixpkgs_9"
 >>>>>>> 2baf997 (current changes WIP)
+=======
+        "nixpkgs": "nixpkgs_14"
+>>>>>>> 139b027 (updated flake)
       },
       "locked": {
         "lastModified": 1779819262,
