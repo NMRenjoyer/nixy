@@ -9,7 +9,8 @@
     ../../nixos/amd-graphics.nix
 
     # NixOS server modules
-    ../../server-modules/ssh.nix
+    /*
+      ../../server-modules/ssh.nix
     ../../server-modules/firewall.nix
     ../../server-modules/cloudflared.nix
     ../../server-modules/glance
@@ -27,7 +28,7 @@
     ../../server-modules/umami.nix
     ../../server-modules/gitea.nix
     ../../server-modules/mealie.nix
-
+    */
     # You should let those lines as is
     ./hardware-configuration.nix
     ./variables.nix
