@@ -38,17 +38,6 @@
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    # Server
-    # FIXME: Deleted repo for now
-    # eleakxir.url = "github:anotherhadi/eleakxir";
-    nixarr.url = "github:rasmus-kirk/nixarr";
-    default-creds.url = "github:anotherhadi/default-creds";
-    blog.url = "github:anotherhadi/blog";
-    awesome-wallpapers.url = "github:anotherhadi/awesome-wallpapers";
-    iknowyou.url = "github:anotherhadi/iknowyou";
-    spilltea.url = "github:anotherhadi/spilltea";
-    helium-browser.url = "github:oxcl/nix-flake-helium-browser";
-
     nixcord.url = "github:FlameFlag/nixcord";
   };
 

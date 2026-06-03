@@ -35,7 +35,7 @@ in {
       package = pkgs.papirus-icon-theme;
     };
 
-    gtk4.theme = null;
+    #   gtk4.theme = null;
 
     # bookmarks for the side pane
     gtk3.bookmarks = [
