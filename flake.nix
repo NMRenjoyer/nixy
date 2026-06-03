@@ -37,15 +37,6 @@
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    # Server
-    nixarr.url = "github:rasmus-kirk/nixarr";
-    default-creds.url = "github:anotherhadi/default-creds";
-    blog.url = "github:anotherhadi/blog";
-    awesome-wallpapers.url = "github:anotherhadi/awesome-wallpapers";
-    iknowyou.url = "github:anotherhadi/iknowyou";
-    spilltea.url = "github:anotherhadi/spilltea";
-
     nixcord.url = "github:FlameFlag/nixcord";
   };
 

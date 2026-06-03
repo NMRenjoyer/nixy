@@ -2,7 +2,7 @@
   imports = [
     # Mostly user-specific configuration
     ./variables.nix
-
+/*
     # Programs
     ../../home/programs/nvf
     ../../home/programs/shell
@@ -14,7 +14,7 @@
 
     ../../home/programs/group/dev.nix
   ];
-
+*/
   home = {
     inherit (config.var) username;
     homeDirectory = "/home/" + config.var.username;
