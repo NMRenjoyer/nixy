@@ -3,9 +3,10 @@
     (import ./bookmarks/general.nix)
     ++ (import ./bookmarks/tools.nix)
     ++ (import ./bookmarks/entertainment.nix)
-    ++ (import ./bookmarks/infosec.nix)
+    #    ++ (import ./bookmarks/infosec.nix)
     ++ (import ./bookmarks/other.nix)
-    ++ (import ./bookmarks/jack.nix);
+    #    ++ (import ./bookmarks/jack.nix);
+    ;
 
   toChromium = items:
     map (item:
