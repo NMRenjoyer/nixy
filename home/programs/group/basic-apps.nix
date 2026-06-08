@@ -38,7 +38,6 @@
     pastel # Command-line tool to generate, analyze, convert and manipulate colors
     imagemagick # Image manipulation tool
     chafa # Image to ANSI/Unicode converter and more.
-    element-desktop # Messaging app
 
     keymapp # keybinding app
   ];
