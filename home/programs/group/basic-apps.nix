@@ -8,7 +8,6 @@
     gnome-text-editor # Basic graphic text editor
     ticktick # Todo app
     switcheroo # Convert images between different formats
-    inkscape # Image editor
     onlyoffice-desktopeditors # Office suite
 
     signal-desktop # Messaging app
