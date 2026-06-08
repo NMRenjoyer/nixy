@@ -7,6 +7,7 @@
         name = "Youtube";
         url = "https://youtube.com";
       }
+      /*
       {
         name = "Social Media";
         icon = "group";
@@ -29,6 +30,7 @@
           }
         ];
       }
+      */
     ];
   }
 ]
