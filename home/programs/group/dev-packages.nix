@@ -10,7 +10,7 @@
   nodejs
   air
   duckdb
-  docker
+  #  docker
   python3
   jq
   nix-prefetch-github

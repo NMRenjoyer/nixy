@@ -8,12 +8,13 @@
     ../../nixos/home-manager.nix
     ../../nixos/nix.nix
     ../../nixos/systemd-boot.nix
-    ../../nixos/sddm.nix
+    ../../nixos/tuigreet.nix
     ../../nixos/users.nix
     ../../nixos/utils.nix
     ../../nixos/hyprland.nix
     ../../nixos/print.nix
     #../../nixos/usbguard.nix
+    ../../home/programs/helium/system.nix
 
     # You should let those lines as is
     ./hardware-configuration.nix
