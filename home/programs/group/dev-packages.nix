@@ -5,6 +5,7 @@
 (with pkgs; [
   go
   claude-code
+  jetbrains.pycharm
 ])
 ++ (with pkgs-stable; [
   nodejs
