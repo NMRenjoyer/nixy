@@ -11,6 +11,7 @@ in {
 
   boot.kernelParams = [
     "nvidia.NVreg_PreserveVideoMemoryAllocations=1" # Improves resume after sleep
+    "video=HDMI-A-1:1080x1920@60e"
   ];
 
   environment.variables = {
