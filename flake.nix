@@ -97,6 +97,7 @@
           #h-work = import ./hosts/work/flake.nix args;
           #jack = import ./hosts/server/flake.nix args;
           nixos-laptop = import ./hosts/nixos-laptop/flake.nix args;
+          nixos-desktop = import ./hosts/nixos-desktop/flake.nix args;
         };
         devShells = forAllSystems (system: pkgs: {
           default = import ./shell.nix {
