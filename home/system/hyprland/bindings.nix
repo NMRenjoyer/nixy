@@ -163,21 +163,26 @@ in {
         "$shiftMod, Print, exec, ${pkgs.hyprshot}/bin/hyprshot -m output" # Capture screen
       ]
       ++ (builtins.concatLists (
-        builtins.genList (
-          i: let
-            ws = i + 1;
-            wsStr = toString ws;
-          in [
-            # Main row numbers (via keycodes 10-18)
-            "$mod, code:1${toString i}, workspace, ${wsStr}"
-            "$mod SHIFT, code:1${toString i}, movetoworkspace, ${wsStr}"
+        let
+          # Physical XKB keycodes for Numpad 1 through 9
+          npCodes = [87 88 89 83 84 85 79 80 81];
+        in
+          builtins.genList (
+            i: let
+              ws = i + 1;
+              wsStr = toString ws;
+              npCode = toString (builtins.elemAt npCodes i);
+            in [
+              # Main number row (keycodes 10-18)
+              "$mod, code:1${toString i}, workspace, ${wsStr}"
+              "$mod SHIFT, code:1${toString i}, movetoworkspace, ${wsStr}"
 
-            # Numpad numbers (via keysyms KP_1 through KP_9)
-            "$mod, KP_${wsStr}, workspace, ${wsStr}"
-            "$mod SHIFT, KP_${wsStr}, movetoworkspace, ${wsStr}"
-          ]
-        )
-        9
+              # Numpad hardware keycodes (bypasses NumLock state)
+              "$mod, code:${npCode}, workspace, ${wsStr}"
+              "$mod SHIFT, code:${npCode}, movetoworkspace, ${wsStr}"
+            ]
+          )
+          9
       ));
     bindm = [
       "$mod,mouse:272, movewindow" # Move Window (mouse)

@@ -2,16 +2,15 @@
 {
   # CHANGEDME: change this to your own SSH key.
   home.file.".ssh/allowed_signers".text = ''
-    * ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA7pxE4EazA5LO1Q1hPlaoRP3OnTT02/bNZYDGIzyLBL
-    * ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBi5hnQLI7JApjyhp/bgTYxo+ieXmy1NT4T3HGz4ZzBB
+    * ssh-ed25519
+    * ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBlvO3Hkqrz8C6+rPFLsaonMnf1wIYT4/Wr6I3V662IR
   '';
 
   programs.git = {
     settings = {
-      commit.gpgsign = true;
       gpg.ssh.allowedSignersFile = "~/.ssh/allowed_signers";
       gpg.format = "ssh";
-      user.signingkey = "~/.ssh/id_ed25519_laptop.pub";
+      user.signingkey = "~/.ssh/id_ed25519_signing.pub";
     };
   };
 }
