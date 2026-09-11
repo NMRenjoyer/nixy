@@ -13,7 +13,7 @@
     username = "dcreetz";
     configDirectory = "/home/" + config.var.username + "/.config/nixos"; # The path of the nixos configuration directory
 
-    keyboardLayout = "en_US";
+    keyboardLayout = "us";
 
     timeZone = "America/Chicago";
     defaultLocale = "en_US.UTF-8";
