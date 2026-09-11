@@ -166,9 +166,15 @@ in {
         builtins.genList (
           i: let
             ws = i + 1;
+            wsStr = toString ws;
           in [
-            "$mod,code:1${toString i}, workspace, ${toString ws}"
-            "$mod SHIFT,code:1${toString i}, movetoworkspace, ${toString ws}"
+            # Main row numbers (via keycodes 10-18)
+            "$mod, code:1${toString i}, workspace, ${wsStr}"
+            "$mod SHIFT, code:1${toString i}, movetoworkspace, ${wsStr}"
+
+            # Numpad numbers (via keysyms KP_1 through KP_9)
+            "$mod, KP_${wsStr}, workspace, ${wsStr}"
+            "$mod SHIFT, KP_${wsStr}, movetoworkspace, ${wsStr}"
           ]
         )
         9
