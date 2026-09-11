@@ -179,7 +179,6 @@ in {
         )
         9
       ));
-
     bindm = [
       "$mod,mouse:272, movewindow" # Move Window (mouse)
       "$mod,R, resizewindow" # Resize Window (mouse)

@@ -8,9 +8,7 @@
     (import ./general.nix)
     ++ (import ./tools.nix)
     ++ (import ./entertainment.nix)
-    ++ (import ./infosec.nix)
-    ++ (import ./other.nix)
-    ++ (import ./jack.nix);
+    ++ (import ./other.nix);
 
   c = config.lib.stylix.colors;
 
