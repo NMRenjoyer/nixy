@@ -33,6 +33,7 @@
     chafa # Image to ANSI/Unicode converter and more.
     proton-vpn-cli
     pkgs-unstable.eilmeldung
+    discordo
 
     # Just cool
     tty-solitaire

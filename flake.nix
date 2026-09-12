@@ -52,6 +52,9 @@
       url = "github:anotherhadi/default-creds";
       flake = false;
     };
+    nixcord = {
+      url = "github:4evy/nixcord";
+    };
 
     # Server
     nixarr.url = "github:nix-media-server/nixarr";
