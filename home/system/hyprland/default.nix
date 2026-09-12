@@ -61,7 +61,8 @@ in {
 
     settings = {
       monitor = [
-        ",preferred,auto,1" # default
+        "eDP-1,preferred,0x0,1" # default
+        ",preferred,auto,1"
       ];
 
       exec-once = [

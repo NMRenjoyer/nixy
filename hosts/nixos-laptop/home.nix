@@ -73,17 +73,25 @@
     };
 
     sessionVariables = {
-      AQ_DRM_DEVICES = "/dev/dri/by-path/pci-0000:01:00.0-card:/dev/dri/by-path:/dev/dri/by-path/pci-0000:00:02.0-card"; # CHANGEDME: Related to the GPU
+      AQ_DRM_DEVICES = "AQ_DRM_DEVICES,/dev/dri/by-path/pci-0000:01:00.0-card:/dev/dri/by-path/pci-0000:00:02.0-card"; # CHANGEDME: Related to the GPU
     };
 
     # Don't touch this
     stateVersion = "26.05";
   };
 
-  wayland.windowManager.hyprland.settings.monitor = [
-    "eDP-2,highres,0x0,1" # My internal laptop screen
-    "desc:AOC U34G2G1 0x00000E06,3440x1440@99.98,auto,1" # My external monitor
-  ];
+  wayland.windowManager.hyprland.settings = {
+    settings = {
+      # Pass the variable directly to Hyprland's internal startup environment
+      # Using by-path guarantees order regardless of kernel card enumeration
+      env = [
+        "AQ_DRM_DEVICES,/dev/dri/card0:/dev/dri/card1"
+      ];
+    };
+    monitor = [
+      "eDP-1,highres,0x0,1" # My internal laptop screen
+    ];
+  };
 
   programs = {
     home-manager.enable = true;
